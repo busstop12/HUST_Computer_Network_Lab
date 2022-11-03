@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servers>
+    <server>
+        <port>9900</port>
+        <root>C:/wwwroot</root>
+    </server>
+</servers>
