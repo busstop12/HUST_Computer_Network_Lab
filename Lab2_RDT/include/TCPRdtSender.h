@@ -3,6 +3,9 @@
 
 #include "RdtSender.h"
 #include <deque>
+#include <fstream>
+
+using namespace std;
 
 class TCPRdtSender : public RdtSender
 {
@@ -14,6 +17,7 @@ private:
   deque<Packet> window;
   Packet lastSendPkt;
   int count;
+  ofstream fout;
 
 public:
   bool getWaitingState();

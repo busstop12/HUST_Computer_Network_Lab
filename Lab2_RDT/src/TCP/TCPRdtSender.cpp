@@ -2,12 +2,14 @@
 #include "TCPRdtSender.h"
 
 TCPRdtSender::TCPRdtSender()
-    : seqNum(8), windowLen(4), base(0), expectSeqNum(0), count(0)
+    : seqNum(8), windowLen(4), base(0), expectSeqNum(0), count(0), fout("TCP_LOG.txt")
 {
+
 }
 
 TCPRdtSender::~TCPRdtSender()
 {
+  fout.close();
 }
 
 bool TCPRdtSender::getWaitingState()
@@ -91,7 +93,8 @@ void TCPRdtSender::receive(const Packet &ackPkt)
       {
         pns->sendToNetworkLayer(RECEIVER, window.front());
         this->count = 0;
-        printf("快速重传: %d\n", window.front().seqnum);
+        // printf("快速重传: %d\n", window.front().seqnum);
+        this->fout << "快速重传: " << window.front().seqnum << endl;
       }
     }
   }
