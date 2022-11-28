@@ -1,0 +1,2839 @@
+******模拟网络环境******：模拟网络环境初始化...
+******模拟网络环境******：模拟网络环境启动...
+The sender send: : seqnum = 0, acknum = -1, checksum = 29556, AAAAAAAAAAAAAAAAAAAA
+The packet sequence number: 0
+******模拟网络环境******：启动定时器, 当前时间 = 0.28, 定时器报文序号 = 0, 定时器Timeout时间 = 20.28
+******模拟网络环境******：发送方的数据包将在7.74到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 29556,payload = AAAAAAAAAAAAAAAAAAAA
+* Sender: The sliding window: base: 0, next: 1
+> seqNum: 0
+接收方正确收到发送方的报文: seqnum = 0, acknum = -1, checksum = 29556, AAAAAAAAAAAAAAAAAAAA
+******模拟网络环境******：向上递交给应用层数据：AAAAAAAAAAAAAAAAAAAA
+接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在14.77到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 14.77, 定时器报文序号 = 0
+* Sender: The sliding window: base: 1, next: 1
+The sender send: : seqnum = 1, acknum = -1, checksum = 41321, 
+BBBBBBBBBBBBBBBBBBB
+The packet sequence number: 1
+******模拟网络环境******：启动定时器, 当前时间 = 14.9225, 定时器报文序号 = 1, 定时器Timeout时间 = 34.9225
+******模拟网络环境******：发送方的数据包将在24.5225到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 41321,payload = BBBBBBBBBBBBBBBBBBBB
+* Sender: The sliding window: base: 1, next: 2
+> seqNum: 1
+The sender send: : seqnum = 2, acknum = -1, checksum = 38295, 
+CCCCCCCCCCCCCCCCCC
+The packet sequence number: 2
+******模拟网络环境******：发送方的数据包将在28.7025到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 38295,payload = CCCCCCCCCCCCCCCCCCC
+* Sender: The sliding window: base: 1, next: 3
+> seqNum: 1
+> seqNum: 2
+The sender send: : seqnum = 3, acknum = -1, checksum = 37002, C
+DDDDDDDDDDDDDDDDD
+The packet sequence number: 3
+******模拟网络环境******：发送方的数据包将在36.7125到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 37002,payload = CDDDDDDDDDDDDDDDDDD
+* Sender: The sliding window: base: 1, next: 4
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+The sender send: : seqnum = 4, acknum = -1, checksum = 33924, DD
+EEEEEEEEEEEEEEEE
+The packet sequence number: 4
+******模拟网络环境******：发送方的数据包将在46.8625到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 33924,payload = DDEEEEEEEEEEEEEEEEE
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 41321, 
+BBBBBBBBBBBBBBBBBBB
+******模拟网络环境******：向上递交给应用层数据：BBBBBBBBBBBBBBBBBBBB
+接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方的确认包将在32.7925到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 38295, 
+CCCCCCCCCCCCCCCCCC
+******模拟网络环境******：向上递交给应用层数据：CCCCCCCCCCCCCCCCCCC
+接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：接收方的确认包将在43.0225到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 32.7925, 定时器报文序号 = 1
+******模拟网络环境******：启动定时器, 当前时间 = 32.7925, 定时器报文序号 = 2, 定时器Timeout时间 = 52.7925
+* Sender: The sliding window: base: 2, next: 5
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 37002, C
+DDDDDDDDDDDDDDDDD
+******模拟网络环境******：向上递交给应用层数据：CDDDDDDDDDDDDDDDDDD
+接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：接收方的确认包将在48.2225到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 43.0225, 定时器报文序号 = 2
+******模拟网络环境******：启动定时器, 当前时间 = 43.0225, 定时器报文序号 = 3, 定时器Timeout时间 = 63.0225
+* Sender: The sliding window: base: 3, next: 5
+> seqNum: 3
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 33924, DD
+EEEEEEEEEEEEEEEE
+******模拟网络环境******：向上递交给应用层数据：DDEEEEEEEEEEEEEEEEE
+接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：接收方的确认包将在56.1525到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 48.2225, 定时器报文序号 = 3
+******模拟网络环境******：启动定时器, 当前时间 = 48.2225, 定时器报文序号 = 4, 定时器Timeout时间 = 68.2225
+* Sender: The sliding window: base: 4, next: 5
+> seqNum: 4
+The sender received ACK packet: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 56.1525, 定时器报文序号 = 4
+* Sender: The sliding window: base: 5, next: 5
+The sender send: : seqnum = 5, acknum = -1, checksum = 32631, EEE
+FFFFFFFFFFFFFFF
+The packet sequence number: 5
+******模拟网络环境******：启动定时器, 当前时间 = 56.6475, 定时器报文序号 = 5, 定时器Timeout时间 = 76.6475
+******模拟网络环境******：发送方的数据包将在66.4175到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 32631,payload = EEEFFFFFFFFFFFFFFFF
+* Sender: The sliding window: base: 5, next: 6
+> seqNum: 5
+The sender send: : seqnum = 6, acknum = -1, checksum = 29553, FFFF
+GGGGGGGGGGGGGG
+The packet sequence number: 6
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 6, acknum = -1,checksum = 29553,payload = GFFFGGGGGGGGGGGGGGG
+******模拟网络环境******：发送方的数据包将在68.9175到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 29553,payload = GFFFGGGGGGGGGGGGGGG
+* Sender: The sliding window: base: 5, next: 7
+> seqNum: 5
+> seqNum: 6
+The sender send: : seqnum = 7, acknum = -1, checksum = 28260, GGGGG
+HHHHHHHHHHHHH
+The packet sequence number: 7
+******模拟网络环境******：发送方的数据包将在74.2475到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 28260,payload = GGGGGHHHHHHHHHHHHHH
+* Sender: The sliding window: base: 5, next: 0
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+The sender send: : seqnum = 0, acknum = -1, checksum = 25190, HHHHHH
+IIIIIIIIIIII
+The packet sequence number: 0
+******模拟网络环境******：发送方的数据包将在75.4375到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 25190,payload = HHHHHHIIIIIIIIIIIII
+* Sender: The sliding window: base: 5, next: 1
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 32631, EEE
+FFFFFFFFFFFFFFF
+******模拟网络环境******：向上递交给应用层数据：EEEFFFFFFFFFFFFFFFF
+接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：接收方的确认包将在74.1575到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 6, acknum = -1, checksum = 29553, GFFF
+GGGGGGGGGGGGGG
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 74.1575, 定时器报文序号 = 5
+******模拟网络环境******：启动定时器, 当前时间 = 74.1575, 定时器报文序号 = 6, 定时器Timeout时间 = 94.1575
+* Sender: The sliding window: base: 6, next: 1
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 7, acknum = -1, checksum = 28260, GGGGG
+HHHHHHHHHHHHH
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：接收方的确认包将在78.2975到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 0, acknum = -1, checksum = 25190, HHHHHH
+IIIIIIIIIIII
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：接收方的确认包将在86.5575到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+The packet has already confirmed: : seqnum = -1, acknum = 5, checksum = 12846, ....................
+* Sender: The sliding window: base: 6, next: 1
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+The packet has already confirmed: : seqnum = -1, acknum = 5, checksum = 12846, ....................
+* Sender: The sliding window: base: 6, next: 1
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 94.1575, 定时器报文序号 = 6
+******模拟网络环境******：启动定时器, 当前时间 = 94.1575, 定时器报文序号 = 6, 定时器Timeout时间 = 114.157
+******模拟网络环境******：发送方的数据包将在102.867到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 29553,payload = FFFFGGGGGGGGGGGGGGG
+接收方正确收到发送方的报文: seqnum = 6, acknum = -1, checksum = 29553, FFFF
+GGGGGGGGGGGGGG
+******模拟网络环境******：向上递交给应用层数据：FFFFGGGGGGGGGGGGGGG
+接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 114.157, 定时器报文序号 = 6
+******模拟网络环境******：启动定时器, 当前时间 = 114.157, 定时器报文序号 = 6, 定时器Timeout时间 = 134.157
+******模拟网络环境******：发送方的数据包将在122.838到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 29553,payload = FFFFGGGGGGGGGGGGGGG
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 6, acknum = -1, checksum = 29553, FFFF
+GGGGGGGGGGGGGG
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方的确认包将在133.078到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 133.078, 定时器报文序号 = 6
+******模拟网络环境******：启动定时器, 当前时间 = 133.078, 定时器报文序号 = 7, 定时器Timeout时间 = 153.078
+* Sender: The sliding window: base: 7, next: 1
+> seqNum: 7
+> seqNum: 0
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 153.078, 定时器报文序号 = 7
+******模拟网络环境******：启动定时器, 当前时间 = 153.078, 定时器报文序号 = 7, 定时器Timeout时间 = 173.078
+******模拟网络环境******：发送方的数据包将在156.998到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 28260,payload = GGGGGHHHHHHHHHHHHHH
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 28260, GGGGG
+HHHHHHHHHHHHH
+******模拟网络环境******：向上递交给应用层数据：GGGGGHHHHHHHHHHHHHH
+接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -999999, acknum = 7,checksum = 12844,payload = .....................
+******模拟网络环境******：接收方的确认包将在165.858到达对方, 确认包为-->seqnum = -999999, acknum = 7,checksum = 12844,payload = .....................
+Packet corrupt: : seqnum = -999999, acknum = 7, checksum = 12844, ....................
+* Sender: The sliding window: base: 7, next: 1
+> seqNum: 7
+> seqNum: 0
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 173.078, 定时器报文序号 = 7
+******模拟网络环境******：启动定时器, 当前时间 = 173.078, 定时器报文序号 = 7, 定时器Timeout时间 = 193.078
+******模拟网络环境******：发送方的数据包将在182.128到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 28260,payload = GGGGGHHHHHHHHHHHHHH
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 7, acknum = -1, checksum = 28260, GGGGG
+HHHHHHHHHHHHH
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 193.078, 定时器报文序号 = 7
+******模拟网络环境******：启动定时器, 当前时间 = 193.078, 定时器报文序号 = 7, 定时器Timeout时间 = 213.078
+******模拟网络环境******：发送方的数据包将在198.108到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 28260,payload = GGGGGHHHHHHHHHHHHHH
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 7, acknum = -1, checksum = 28260, GGGGG
+HHHHHHHHHHHHH
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：接收方的确认包将在199.708到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 199.708, 定时器报文序号 = 7
+******模拟网络环境******：启动定时器, 当前时间 = 199.708, 定时器报文序号 = 0, 定时器Timeout时间 = 219.708
+* Sender: The sliding window: base: 0, next: 1
+> seqNum: 0
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 219.708, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 219.708, 定时器报文序号 = 0, 定时器Timeout时间 = 239.708
+******模拟网络环境******：发送方的数据包将在222.088到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 25190,payload = HHHHHHIIIIIIIIIIIII
+接收方正确收到发送方的报文: seqnum = 0, acknum = -1, checksum = 25190, HHHHHH
+IIIIIIIIIIII
+******模拟网络环境******：向上递交给应用层数据：HHHHHHIIIIIIIIIIIII
+接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在232.178到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 232.178, 定时器报文序号 = 0
+* Sender: The sliding window: base: 1, next: 1
+The sender send: : seqnum = 1, acknum = -1, checksum = 23897, IIIIIII
+JJJJJJJJJJJ
+The packet sequence number: 1
+******模拟网络环境******：启动定时器, 当前时间 = 232.525, 定时器报文序号 = 1, 定时器Timeout时间 = 252.525
+******模拟网络环境******：发送方的数据包将在240.465到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 23897,payload = IIIIIIIJJJJJJJJJJJJ
+* Sender: The sliding window: base: 1, next: 2
+> seqNum: 1
+The sender send: : seqnum = 2, acknum = -1, checksum = 20819, JJJJJJJJ
+KKKKKKKKKK
+The packet sequence number: 2
+******模拟网络环境******：发送方的数据包将在242.035到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 20819,payload = JJJJJJJJKKKKKKKKKKK
+* Sender: The sliding window: base: 1, next: 3
+> seqNum: 1
+> seqNum: 2
+The sender send: : seqnum = 3, acknum = -1, checksum = 19526, KKKKKKKKK
+LLLLLLLLL
+The packet sequence number: 3
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -999999, acknum = -1,checksum = 19526,payload = KKKKKKKKKLLLLLLLLLL
+******模拟网络环境******：发送方的数据包将在251.135到达对方, 数据包为-->seqnum = -999999, acknum = -1,checksum = 19526,payload = KKKKKKKKKLLLLLLLLLL
+* Sender: The sliding window: base: 1, next: 4
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+The sender send: : seqnum = 4, acknum = -1, checksum = 16448, LLLLLLLLLL
+MMMMMMMM
+The packet sequence number: 4
+******模拟网络环境******：发送方的数据包将在253.965到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 16448,payload = LLLLLLLLLLMMMMMMMMM
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 23897, IIIIIII
+JJJJJJJJJJJ
+******模拟网络环境******：向上递交给应用层数据：IIIIIIIJJJJJJJJJJJJ
+接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 20819, JJJJJJJJ
+KKKKKKKKKK
+******模拟网络环境******：向上递交给应用层数据：JJJJJJJJKKKKKKKKKKK
+接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：接收方的确认包将在246.025到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 246.025, 定时器报文序号 = 1
+******模拟网络环境******：关闭定时器, 当前时间 = 246.025, 定时器报文序号 = 2
+******模拟网络环境******：启动定时器, 当前时间 = 246.025, 定时器报文序号 = 3, 定时器Timeout时间 = 266.025
+* Sender: The sliding window: base: 3, next: 5
+> seqNum: 3
+> seqNum: 4
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = -999999, acknum = -1, checksum = 19526, KKKKKKKKK
+LLLLLLLLL
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：接收方的确认包将在255.355到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 4, acknum = -1, checksum = 16448, LLLLLLLLLL
+MMMMMMMM
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：接收方的确认包将在262.905到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+The packet has already confirmed: : seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：发送方的数据包将在257.145到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 19526,payload = KKKKKKKKKLLLLLLLLLL
+快速重传: 3
+* Sender: The sliding window: base: 3, next: 5
+> seqNum: 3
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 19526, KKKKKKKKK
+LLLLLLLLL
+******模拟网络环境******：向上递交给应用层数据：KKKKKKKKKLLLLLLLLLL
+接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：接收方的确认包将在270.145到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+The packet has already confirmed: : seqnum = -1, acknum = 2, checksum = 12849, ....................
+* Sender: The sliding window: base: 3, next: 5
+> seqNum: 3
+> seqNum: 4
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 266.025, 定时器报文序号 = 3
+******模拟网络环境******：启动定时器, 当前时间 = 266.025, 定时器报文序号 = 3, 定时器Timeout时间 = 286.025
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 3, acknum = -1,checksum = 19526,payload = LKKKKKKKKLLLLLLLLLL
+******模拟网络环境******：发送方的数据包将在268.275到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 19526,payload = LKKKKKKKKLLLLLLLLLL
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 3, acknum = -1, checksum = 19526, LKKKKKKKK
+LLLLLLLLL
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：接收方的确认包将在276.485到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 270.145, 定时器报文序号 = 3
+******模拟网络环境******：启动定时器, 当前时间 = 270.145, 定时器报文序号 = 4, 定时器Timeout时间 = 290.145
+* Sender: The sliding window: base: 4, next: 5
+> seqNum: 4
+The packet has already confirmed: : seqnum = -1, acknum = 3, checksum = 12848, ....................
+* Sender: The sliding window: base: 4, next: 5
+> seqNum: 4
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 290.145, 定时器报文序号 = 4
+******模拟网络环境******：启动定时器, 当前时间 = 290.145, 定时器报文序号 = 4, 定时器Timeout时间 = 310.145
+******模拟网络环境******：发送方的数据包将在298.475到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 16448,payload = LLLLLLLLLLMMMMMMMMM
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 16448, LLLLLLLLLL
+MMMMMMMM
+******模拟网络环境******：向上递交给应用层数据：LLLLLLLLLLMMMMMMMMM
+接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：接收方的确认包将在302.065到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 302.065, 定时器报文序号 = 4
+* Sender: The sliding window: base: 5, next: 5
+The sender send: : seqnum = 5, acknum = -1, checksum = 15155, MMMMMMMMMMM
+NNNNNNN
+The packet sequence number: 5
+******模拟网络环境******：启动定时器, 当前时间 = 302.325, 定时器报文序号 = 5, 定时器Timeout时间 = 322.325
+******模拟网络环境******：发送方的数据包将在306.175到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 15155,payload = MMMMMMMMMMMNNNNNNNN
+* Sender: The sliding window: base: 5, next: 6
+> seqNum: 5
+The sender send: : seqnum = 6, acknum = -1, checksum = 12077, NNNNNNNNNNNN
+OOOOOO
+The packet sequence number: 6
+******模拟网络环境******：发送方的数据包将在311.395到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 12077,payload = NNNNNNNNNNNNOOOOOOO
+* Sender: The sliding window: base: 5, next: 7
+> seqNum: 5
+> seqNum: 6
+The sender send: : seqnum = 7, acknum = -1, checksum = 10784, OOOOOOOOOOOOO
+PPPPP
+The packet sequence number: 7
+******模拟网络环境******：发送方的数据包将在320.605到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 10784,payload = OOOOOOOOOOOOOPPPPPP
+* Sender: The sliding window: base: 5, next: 0
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+The sender send: : seqnum = 0, acknum = -1, checksum = 7714, PPPPPPPPPPPPPP
+QQQQ
+The packet sequence number: 0
+******模拟网络环境******：发送方的数据包将在328.715到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 7714,payload = PPPPPPPPPPPPPPQQQQQ
+* Sender: The sliding window: base: 5, next: 1
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 15155, MMMMMMMMMMM
+NNNNNNN
+******模拟网络环境******：向上递交给应用层数据：MMMMMMMMMMMNNNNNNNN
+接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+接收方正确收到发送方的报文: seqnum = 6, acknum = -1, checksum = 12077, NNNNNNNNNNNN
+OOOOOO
+******模拟网络环境******：向上递交给应用层数据：NNNNNNNNNNNNOOOOOOO
+接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方的确认包将在316.865到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 316.865, 定时器报文序号 = 5
+******模拟网络环境******：关闭定时器, 当前时间 = 316.865, 定时器报文序号 = 6
+******模拟网络环境******：启动定时器, 当前时间 = 316.865, 定时器报文序号 = 7, 定时器Timeout时间 = 336.865
+* Sender: The sliding window: base: 7, next: 1
+> seqNum: 7
+> seqNum: 0
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 10784, OOOOOOOOOOOOO
+PPPPP
+******模拟网络环境******：向上递交给应用层数据：OOOOOOOOOOOOOPPPPPP
+接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = /....................
+******模拟网络环境******：接收方的确认包将在323.745到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = /....................
+Packet corrupt: : seqnum = -1, acknum = 7, checksum = 12844, /...................
+* Sender: The sliding window: base: 7, next: 1
+> seqNum: 7
+> seqNum: 0
+接收方正确收到发送方的报文: seqnum = 0, acknum = -1, checksum = 7714, PPPPPPPPPPPPPP
+QQQQ
+******模拟网络环境******：向上递交给应用层数据：PPPPPPPPPPPPPPQQQQQ
+接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 336.865, 定时器报文序号 = 7
+******模拟网络环境******：启动定时器, 当前时间 = 336.865, 定时器报文序号 = 7, 定时器Timeout时间 = 356.865
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 7, acknum = -1,checksum = 10784,payload = OOOOOOOOOOOOOPPPPPP
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 356.865, 定时器报文序号 = 7
+******模拟网络环境******：启动定时器, 当前时间 = 356.865, 定时器报文序号 = 7, 定时器Timeout时间 = 376.865
+******模拟网络环境******：发送方的数据包将在359.565到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 10784,payload = OOOOOOOOOOOOOPPPPPP
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 7, acknum = -1, checksum = 10784, OOOOOOOOOOOOO
+PPPPP
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在365.735到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 365.735, 定时器报文序号 = 7
+******模拟网络环境******：关闭定时器, 当前时间 = 365.735, 定时器报文序号 = 0
+* Sender: The sliding window: base: 1, next: 1
+The sender send: : seqnum = 1, acknum = -1, checksum = 6421, QQQQQQQQQQQQQQQ
+RRR
+The packet sequence number: 1
+******模拟网络环境******：启动定时器, 当前时间 = 366.433, 定时器报文序号 = 1, 定时器Timeout时间 = 386.433
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 1, acknum = -1,checksum = 6421,payload = QQQQQQQQQQQQQQQRRRR
+* Sender: The sliding window: base: 1, next: 2
+> seqNum: 1
+The sender send: : seqnum = 2, acknum = -1, checksum = 3343, RRRRRRRRRRRRRRRR
+SS
+The packet sequence number: 2
+******模拟网络环境******：发送方的数据包将在373.288到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 3343,payload = RRRRRRRRRRRRRRRRSSS
+* Sender: The sliding window: base: 1, next: 3
+> seqNum: 1
+> seqNum: 2
+The sender send: : seqnum = 3, acknum = -1, checksum = 2050, SSSSSSSSSSSSSSSSS
+T
+The packet sequence number: 3
+******模拟网络环境******：发送方的数据包将在381.128到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 2050,payload = SSSSSSSSSSSSSSSSSTT
+* Sender: The sliding window: base: 1, next: 4
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+The sender send: : seqnum = 4, acknum = -1, checksum = 64507, TTTTTTTTTTTTTTTTTT
+
+The packet sequence number: 4
+******模拟网络环境******：发送方的数据包将在386.088到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 64507,payload = TTTTTTTTTTTTTTTTTTU
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 2, acknum = -1, checksum = 3343, RRRRRRRRRRRRRRRR
+SS
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在375.498到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+The packet has already confirmed: : seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 1, acknum = -1,checksum = 6421,payload = QQQQQQQQQQQQQQQRRRR
+快速重传: 1
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 3, acknum = -1, checksum = 2050, SSSSSSSSSSSSSSSSS
+T
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在382.418到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+The packet has already confirmed: : seqnum = -1, acknum = 0, checksum = 12851, ....................
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 4, acknum = -1, checksum = 64507, TTTTTTTTTTTTTTTTTT
+
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在390.958到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 386.433, 定时器报文序号 = 1
+******模拟网络环境******：启动定时器, 当前时间 = 386.433, 定时器报文序号 = 1, 定时器Timeout时间 = 406.433
+******模拟网络环境******：发送方的数据包将在393.003到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 6421,payload = QQQQQQQQQQQQQQQRRRR
+The packet has already confirmed: : seqnum = -1, acknum = 0, checksum = 12851, ....................
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 6421, QQQQQQQQQQQQQQQ
+RRR
+******模拟网络环境******：向上递交给应用层数据：QQQQQQQQQQQQQQQRRRR
+接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方的确认包将在398.263到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 398.263, 定时器报文序号 = 1
+******模拟网络环境******：启动定时器, 当前时间 = 398.263, 定时器报文序号 = 2, 定时器Timeout时间 = 418.263
+* Sender: The sliding window: base: 2, next: 5
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 418.263, 定时器报文序号 = 2
+******模拟网络环境******：启动定时器, 当前时间 = 418.263, 定时器报文序号 = 2, 定时器Timeout时间 = 438.263
+******模拟网络环境******：发送方的数据包将在421.563到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 3343,payload = RRRRRRRRRRRRRRRRSSS
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 3343, RRRRRRRRRRRRRRRR
+SS
+******模拟网络环境******：向上递交给应用层数据：RRRRRRRRRRRRRRRRSSS
+接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：接收方的确认包将在429.263到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 429.263, 定时器报文序号 = 2
+******模拟网络环境******：启动定时器, 当前时间 = 429.263, 定时器报文序号 = 3, 定时器Timeout时间 = 449.263
+* Sender: The sliding window: base: 3, next: 5
+> seqNum: 3
+> seqNum: 4
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 449.263, 定时器报文序号 = 3
+******模拟网络环境******：启动定时器, 当前时间 = 449.263, 定时器报文序号 = 3, 定时器Timeout时间 = 469.263
+******模拟网络环境******：发送方的数据包将在452.073到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 2050,payload = SSSSSSSSSSSSSSSSSTT
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 2050, SSSSSSSSSSSSSSSSS
+T
+******模拟网络环境******：向上递交给应用层数据：SSSSSSSSSSSSSSSSSTT
+接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：接收方的确认包将在455.253到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 455.253, 定时器报文序号 = 3
+******模拟网络环境******：启动定时器, 当前时间 = 455.253, 定时器报文序号 = 4, 定时器Timeout时间 = 475.253
+* Sender: The sliding window: base: 4, next: 5
+> seqNum: 4
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 475.253, 定时器报文序号 = 4
+******模拟网络环境******：启动定时器, 当前时间 = 475.253, 定时器报文序号 = 4, 定时器Timeout时间 = 495.253
+******模拟网络环境******：发送方的数据包将在482.393到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 64507,payload = TTTTTTTTTTTTTTTTTTU
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 64507, TTTTTTTTTTTTTTTTTT
+
+******模拟网络环境******：向上递交给应用层数据：TTTTTTTTTTTTTTTTTTU
+接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：接收方的确认包将在484.263到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 484.263, 定时器报文序号 = 4
+* Sender: The sliding window: base: 5, next: 5
+The sender send: : seqnum = 5, acknum = -1, checksum = 43758, UUUUUUUUUUUUUUUUUUU
+The packet sequence number: 5
+******模拟网络环境******：启动定时器, 当前时间 = 484.953, 定时器报文序号 = 5, 定时器Timeout时间 = 504.953
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -999999, acknum = -1,checksum = 43758,payload = UUUUUUUUUUUUUUUUUUU
+******模拟网络环境******：发送方的数据包将在495.483到达对方, 数据包为-->seqnum = -999999, acknum = -1,checksum = 43758,payload = UUUUUUUUUUUUUUUUUUU
+* Sender: The sliding window: base: 5, next: 6
+> seqNum: 5
+The sender send: : seqnum = 6, acknum = -1, checksum = 41115, VVVVVVVVVVVVVVVVVVVV
+The packet sequence number: 6
+******模拟网络环境******：发送方的数据包将在500.283到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 41115,payload = VVVVVVVVVVVVVVVVVVVV
+* Sender: The sliding window: base: 5, next: 7
+> seqNum: 5
+> seqNum: 6
+The sender send: : seqnum = 7, acknum = -1, checksum = 58256, 
+WWWWWWWWWWWWWWWWWWW
+The packet sequence number: 7
+******模拟网络环境******：发送方的数据包将在510.903到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 58256,payload = WWWWWWWWWWWWWWWWWWWW
+* Sender: The sliding window: base: 5, next: 0
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+The sender send: : seqnum = 0, acknum = -1, checksum = 55259, 
+XXXXXXXXXXXXXXXXXX
+The packet sequence number: 0
+******模拟网络环境******：发送方的数据包将在518.223到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 55259,payload = XXXXXXXXXXXXXXXXXXX
+* Sender: The sliding window: base: 5, next: 1
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = -999999, acknum = -1, checksum = 43758, UUUUUUUUUUUUUUUUUUU
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 6, acknum = -1, checksum = 41115, VVVVVVVVVVVVVVVVVVVV
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：接收方的确认包将在503.503到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+The packet has already confirmed: : seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：发送方的数据包将在528.183到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 43758,payload = UUUUUUUUUUUUUUUUUUU
+快速重传: 5
+* Sender: The sliding window: base: 5, next: 1
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 504.953, 定时器报文序号 = 5
+******模拟网络环境******：启动定时器, 当前时间 = 504.953, 定时器报文序号 = 5, 定时器Timeout时间 = 524.953
+******模拟网络环境******：发送方的数据包将在534.183到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 43758,payload = UUUUUUUUUUUUUUUUUUU
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 7, acknum = -1, checksum = 58256, 
+WWWWWWWWWWWWWWWWWWW
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：接收方的确认包将在519.673到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 0, acknum = -1, checksum = 55259, 
+XXXXXXXXXXXXXXXXXX
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：接收方的确认包将在525.013到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+The packet has already confirmed: : seqnum = -1, acknum = 4, checksum = 12847, ....................
+* Sender: The sliding window: base: 5, next: 1
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 524.953, 定时器报文序号 = 5
+******模拟网络环境******：启动定时器, 当前时间 = 524.953, 定时器报文序号 = 5, 定时器Timeout时间 = 544.953
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 5, acknum = -1,checksum = 43758,payload = VUUUUUUUUUUUUUUUUUU
+******模拟网络环境******：发送方的数据包将在544.863到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 43758,payload = VUUUUUUUUUUUUUUUUUU
+The packet has already confirmed: : seqnum = -1, acknum = 4, checksum = 12847, ....................
+* Sender: The sliding window: base: 5, next: 1
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 43758, UUUUUUUUUUUUUUUUUUU
+******模拟网络环境******：向上递交给应用层数据：UUUUUUUUUUUUUUUUUUU
+接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：接收方的确认包将在531.963到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 531.963, 定时器报文序号 = 5
+******模拟网络环境******：启动定时器, 当前时间 = 531.963, 定时器报文序号 = 6, 定时器Timeout时间 = 551.963
+* Sender: The sliding window: base: 6, next: 1
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 5, acknum = -1, checksum = 43758, UUUUUUUUUUUUUUUUUUU
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：接收方的确认包将在537.303到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+The packet has already confirmed: : seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：发送方的数据包将在555.533到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 41115,payload = VVVVVVVVVVVVVVVVVVVV
+快速重传: 6
+* Sender: The sliding window: base: 6, next: 1
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 5, acknum = -1, checksum = 43758, VUUUUUUUUUUUUUUUUUU
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：接收方的确认包将在549.723到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+The packet has already confirmed: : seqnum = -1, acknum = 5, checksum = 12846, ....................
+* Sender: The sliding window: base: 6, next: 1
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 551.963, 定时器报文序号 = 6
+******模拟网络环境******：启动定时器, 当前时间 = 551.963, 定时器报文序号 = 6, 定时器Timeout时间 = 571.963
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 6, acknum = -1,checksum = 41115,payload = VVVVVVVVVVVVVVVVVVVV
+接收方正确收到发送方的报文: seqnum = 6, acknum = -1, checksum = 41115, VVVVVVVVVVVVVVVVVVVV
+******模拟网络环境******：向上递交给应用层数据：VVVVVVVVVVVVVVVVVVVV
+接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方的确认包将在559.103到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 559.103, 定时器报文序号 = 6
+******模拟网络环境******：启动定时器, 当前时间 = 559.103, 定时器报文序号 = 7, 定时器Timeout时间 = 579.103
+* Sender: The sliding window: base: 7, next: 1
+> seqNum: 7
+> seqNum: 0
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 579.103, 定时器报文序号 = 7
+******模拟网络环境******：启动定时器, 当前时间 = 579.103, 定时器报文序号 = 7, 定时器Timeout时间 = 599.103
+******模拟网络环境******：发送方的数据包将在586.083到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 58256,payload = WWWWWWWWWWWWWWWWWWWW
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 58256, 
+WWWWWWWWWWWWWWWWWWW
+******模拟网络环境******：向上递交给应用层数据：WWWWWWWWWWWWWWWWWWWW
+接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 599.103, 定时器报文序号 = 7
+******模拟网络环境******：启动定时器, 当前时间 = 599.103, 定时器报文序号 = 7, 定时器Timeout时间 = 619.103
+******模拟网络环境******：发送方的数据包将在608.103到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 58256,payload = WWWWWWWWWWWWWWWWWWWW
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 7, acknum = -1, checksum = 58256, 
+WWWWWWWWWWWWWWWWWWW
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：接收方的确认包将在614.753到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 614.753, 定时器报文序号 = 7
+******模拟网络环境******：启动定时器, 当前时间 = 614.753, 定时器报文序号 = 0, 定时器Timeout时间 = 634.753
+* Sender: The sliding window: base: 0, next: 1
+> seqNum: 0
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 634.753, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 634.753, 定时器报文序号 = 0, 定时器Timeout时间 = 654.753
+******模拟网络环境******：发送方的数据包将在641.503到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 55259,payload = XXXXXXXXXXXXXXXXXXX
+接收方正确收到发送方的报文: seqnum = 0, acknum = -1, checksum = 55259, 
+XXXXXXXXXXXXXXXXXX
+******模拟网络环境******：向上递交给应用层数据：XXXXXXXXXXXXXXXXXXX
+接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在643.213到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 643.213, 定时器报文序号 = 0
+* Sender: The sliding window: base: 1, next: 1
+The sender send: : seqnum = 1, acknum = -1, checksum = 53966, X
+YYYYYYYYYYYYYYYYY
+The packet sequence number: 1
+******模拟网络环境******：启动定时器, 当前时间 = 643.673, 定时器报文序号 = 1, 定时器Timeout时间 = 663.673
+******模拟网络环境******：发送方的数据包将在647.243到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 53966,payload = XYYYYYYYYYYYYYYYYYY
+* Sender: The sliding window: base: 1, next: 2
+> seqNum: 1
+The sender send: : seqnum = 2, acknum = -1, checksum = 50888, YY
+ZZZZZZZZZZZZZZZZ
+The packet sequence number: 2
+******模拟网络环境******：发送方的数据包将在654.673到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 50888,payload = YYZZZZZZZZZZZZZZZZZ
+* Sender: The sliding window: base: 1, next: 3
+> seqNum: 1
+> seqNum: 2
+The sender send: : seqnum = 3, acknum = -1, checksum = 30860, ZZZ
+AAAAAAAAAAAAAAA
+The packet sequence number: 3
+******模拟网络环境******：发送方的数据包将在665.223到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 30860,payload = ZZZAAAAAAAAAAAAAAAA
+* Sender: The sliding window: base: 1, next: 4
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+The sender send: : seqnum = 4, acknum = -1, checksum = 41120, AAAA
+BBBBBBBBBBBBBB
+The packet sequence number: 4
+******模拟网络环境******：发送方的数据包将在674.333到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 41120,payload = AAAABBBBBBBBBBBBBBB
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 53966, X
+YYYYYYYYYYYYYYYYY
+******模拟网络环境******：向上递交给应用层数据：XYYYYYYYYYYYYYYYYYY
+接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方的确认包将在656.963到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 50888, YY
+ZZZZZZZZZZZZZZZZ
+******模拟网络环境******：向上递交给应用层数据：YYZZZZZZZZZZZZZZZZZ
+接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = /....................
+******模拟网络环境******：接收方的确认包将在660.713到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = /....................
+The sender received ACK packet: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 656.963, 定时器报文序号 = 1
+******模拟网络环境******：启动定时器, 当前时间 = 656.963, 定时器报文序号 = 2, 定时器Timeout时间 = 676.963
+* Sender: The sliding window: base: 2, next: 5
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+Packet corrupt: : seqnum = -1, acknum = 2, checksum = 12849, /...................
+* Sender: The sliding window: base: 2, next: 5
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 30860, ZZZ
+AAAAAAAAAAAAAAA
+******模拟网络环境******：向上递交给应用层数据：ZZZAAAAAAAAAAAAAAAA
+接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：接收方的确认包将在670.253到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 670.253, 定时器报文序号 = 2
+******模拟网络环境******：关闭定时器, 当前时间 = 670.253, 定时器报文序号 = 3
+******模拟网络环境******：启动定时器, 当前时间 = 670.253, 定时器报文序号 = 4, 定时器Timeout时间 = 690.253
+* Sender: The sliding window: base: 4, next: 5
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 41120, AAAA
+BBBBBBBBBBBBBB
+******模拟网络环境******：向上递交给应用层数据：AAAABBBBBBBBBBBBBBB
+接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：接收方的确认包将在676.793到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 676.793, 定时器报文序号 = 4
+* Sender: The sliding window: base: 5, next: 5
+The sender send: : seqnum = 5, acknum = -1, checksum = 39827, BBBBB
+CCCCCCCCCCCCC
+The packet sequence number: 5
+******模拟网络环境******：启动定时器, 当前时间 = 677.32, 定时器报文序号 = 5, 定时器Timeout时间 = 697.32
+******模拟网络环境******：发送方的数据包将在678.7到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 39827,payload = BBBBBCCCCCCCCCCCCCC
+* Sender: The sliding window: base: 5, next: 6
+> seqNum: 5
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 39827, BBBBB
+CCCCCCCCCCCCC
+******模拟网络环境******：向上递交给应用层数据：BBBBBCCCCCCCCCCCCCC
+接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+The sender send: : seqnum = 6, acknum = -1, checksum = 36749, CCCCCC
+DDDDDDDDDDDD
+The packet sequence number: 6
+******模拟网络环境******：发送方的数据包将在680.555到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 36749,payload = CCCCCCDDDDDDDDDDDDD
+* Sender: The sliding window: base: 5, next: 7
+> seqNum: 5
+> seqNum: 6
+The sender send: : seqnum = 7, acknum = -1, checksum = 35456, DDDDDDD
+EEEEEEEEEEE
+The packet sequence number: 7
+******模拟网络环境******：发送方的数据包将在681.715到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 35456,payload = DDDDDDDEEEEEEEEEEEE
+* Sender: The sliding window: base: 5, next: 0
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+The sender send: : seqnum = 0, acknum = -1, checksum = 32386, EEEEEEEE
+FFFFFFFFFF
+The packet sequence number: 0
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 0, acknum = -1,checksum = 32386,payload = EEEEEEEEFFFFFFFFFFF
+* Sender: The sliding window: base: 5, next: 1
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方正确收到发送方的报文: seqnum = 6, acknum = -1, checksum = 36749, CCCCCC
+DDDDDDDDDDDD
+******模拟网络环境******：向上递交给应用层数据：CCCCCCDDDDDDDDDDDDD
+接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方的确认包将在686.245到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 35456, DDDDDDD
+EEEEEEEEEEE
+******模拟网络环境******：向上递交给应用层数据：DDDDDDDEEEEEEEEEEEE
+接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = /....................
+******模拟网络环境******：接收方的确认包将在693.655到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = /....................
+The sender received ACK packet: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 686.245, 定时器报文序号 = 5
+******模拟网络环境******：关闭定时器, 当前时间 = 686.245, 定时器报文序号 = 6
+******模拟网络环境******：启动定时器, 当前时间 = 686.245, 定时器报文序号 = 7, 定时器Timeout时间 = 706.245
+* Sender: The sliding window: base: 7, next: 1
+> seqNum: 7
+> seqNum: 0
+Packet corrupt: : seqnum = -1, acknum = 7, checksum = 12844, /...................
+* Sender: The sliding window: base: 7, next: 1
+> seqNum: 7
+> seqNum: 0
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 706.245, 定时器报文序号 = 7
+******模拟网络环境******：启动定时器, 当前时间 = 706.245, 定时器报文序号 = 7, 定时器Timeout时间 = 726.245
+******模拟网络环境******：发送方的数据包将在716.735到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 35456,payload = DDDDDDDEEEEEEEEEEEE
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 7, acknum = -1, checksum = 35456, DDDDDDD
+EEEEEEEEEEE
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 726.245, 定时器报文序号 = 7
+******模拟网络环境******：启动定时器, 当前时间 = 726.245, 定时器报文序号 = 7, 定时器Timeout时间 = 746.245
+******模拟网络环境******：发送方的数据包将在734.445到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 35456,payload = DDDDDDDEEEEEEEEEEEE
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 7, acknum = -1, checksum = 35456, DDDDDDD
+EEEEEEEEEEE
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：接收方的确认包将在744.795到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 744.795, 定时器报文序号 = 7
+******模拟网络环境******：启动定时器, 当前时间 = 744.795, 定时器报文序号 = 0, 定时器Timeout时间 = 764.795
+* Sender: The sliding window: base: 0, next: 1
+> seqNum: 0
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 764.795, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 764.795, 定时器报文序号 = 0, 定时器Timeout时间 = 784.795
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 0, acknum = -1,checksum = 32386,payload = EEEEEEEEFFFFFFFFFFF
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 784.795, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 784.795, 定时器报文序号 = 0, 定时器Timeout时间 = 804.795
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 0, acknum = -1,checksum = 32386,payload = EEEEEEEEFFFFFFFFFFF
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 804.795, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 804.795, 定时器报文序号 = 0, 定时器Timeout时间 = 824.795
+******模拟网络环境******：发送方的数据包将在813.615到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 32386,payload = EEEEEEEEFFFFFFFFFFF
+接收方正确收到发送方的报文: seqnum = 0, acknum = -1, checksum = 32386, EEEEEEEE
+FFFFFFFFFF
+******模拟网络环境******：向上递交给应用层数据：EEEEEEEEFFFFFFFFFFF
+接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在822.005到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 822.005, 定时器报文序号 = 0
+* Sender: The sliding window: base: 1, next: 1
+The sender send: : seqnum = 1, acknum = -1, checksum = 31093, FFFFFFFFF
+GGGGGGGGG
+The packet sequence number: 1
+******模拟网络环境******：启动定时器, 当前时间 = 822.61, 定时器报文序号 = 1, 定时器Timeout时间 = 842.61
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 1, acknum = -1,checksum = 31093,payload = GFFFFFFFFGGGGGGGGGG
+******模拟网络环境******：发送方的数据包将在827.87到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 31093,payload = GFFFFFFFFGGGGGGGGGG
+* Sender: The sliding window: base: 1, next: 2
+> seqNum: 1
+The sender send: : seqnum = 2, acknum = -1, checksum = 28015, GGGGGGGGGG
+HHHHHHHH
+The packet sequence number: 2
+******模拟网络环境******：发送方的数据包将在833.37到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 28015,payload = GGGGGGGGGGHHHHHHHHH
+* Sender: The sliding window: base: 1, next: 3
+> seqNum: 1
+> seqNum: 2
+The sender send: : seqnum = 3, acknum = -1, checksum = 26722, HHHHHHHHHHH
+IIIIIII
+The packet sequence number: 3
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 3, acknum = -1,checksum = 26722,payload = IHHHHHHHHHHIIIIIIII
+******模拟网络环境******：发送方的数据包将在840.47到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 26722,payload = IHHHHHHHHHHIIIIIIII
+* Sender: The sliding window: base: 1, next: 4
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+The sender send: : seqnum = 4, acknum = -1, checksum = 23644, IIIIIIIIIIII
+JJJJJJ
+The packet sequence number: 4
+******模拟网络环境******：发送方的数据包将在845.91到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 23644,payload = IIIIIIIIIIIIJJJJJJJ
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 1, acknum = -1, checksum = 31093, GFFFFFFFF
+GGGGGGGGG
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在831.19到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+The packet has already confirmed: : seqnum = -1, acknum = 0, checksum = 12851, ....................
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 2, acknum = -1, checksum = 28015, GGGGGGGGGG
+HHHHHHHH
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在840.23到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+The packet has already confirmed: : seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：发送方的数据包将在854.11到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 31093,payload = FFFFFFFFFGGGGGGGGGG
+快速重传: 1
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 3, acknum = -1, checksum = 26722, IHHHHHHHHHH
+IIIIIII
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在846.06到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 842.61, 定时器报文序号 = 1
+******模拟网络环境******：启动定时器, 当前时间 = 842.61, 定时器报文序号 = 1, 定时器Timeout时间 = 862.61
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 1, acknum = -1,checksum = 31093,payload = FFFFFFFFFGGGGGGGGGG
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 4, acknum = -1, checksum = 23644, IIIIIIIIIIII
+JJJJJJ
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在854.9到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+The packet has already confirmed: : seqnum = -1, acknum = 0, checksum = 12851, ....................
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 31093, FFFFFFFFF
+GGGGGGGGG
+******模拟网络环境******：向上递交给应用层数据：FFFFFFFFFGGGGGGGGGG
+接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+The packet has already confirmed: : seqnum = -1, acknum = 0, checksum = 12851, ....................
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 862.61, 定时器报文序号 = 1
+******模拟网络环境******：启动定时器, 当前时间 = 862.61, 定时器报文序号 = 1, 定时器Timeout时间 = 882.61
+******模拟网络环境******：发送方的数据包将在866.78到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 31093,payload = FFFFFFFFFGGGGGGGGGG
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 1, acknum = -1, checksum = 31093, FFFFFFFFF
+GGGGGGGGG
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 882.61, 定时器报文序号 = 1
+******模拟网络环境******：启动定时器, 当前时间 = 882.61, 定时器报文序号 = 1, 定时器Timeout时间 = 902.61
+******模拟网络环境******：发送方的数据包将在888.96到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 31093,payload = FFFFFFFFFGGGGGGGGGG
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 1, acknum = -1, checksum = 31093, FFFFFFFFF
+GGGGGGGGG
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = /....................
+******模拟网络环境******：接收方的确认包将在894.9到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = /....................
+Packet corrupt: : seqnum = -1, acknum = 1, checksum = 12850, /...................
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 902.61, 定时器报文序号 = 1
+******模拟网络环境******：启动定时器, 当前时间 = 902.61, 定时器报文序号 = 1, 定时器Timeout时间 = 922.61
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -999999, acknum = -1,checksum = 31093,payload = FFFFFFFFFGGGGGGGGGG
+******模拟网络环境******：发送方的数据包将在910.99到达对方, 数据包为-->seqnum = -999999, acknum = -1,checksum = 31093,payload = FFFFFFFFFGGGGGGGGGG
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = -999999, acknum = -1, checksum = 31093, FFFFFFFFF
+GGGGGGGGG
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方的确认包将在920.13到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 920.13, 定时器报文序号 = 1
+******模拟网络环境******：启动定时器, 当前时间 = 920.13, 定时器报文序号 = 2, 定时器Timeout时间 = 940.13
+* Sender: The sliding window: base: 2, next: 5
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 940.13, 定时器报文序号 = 2
+******模拟网络环境******：启动定时器, 当前时间 = 940.13, 定时器报文序号 = 2, 定时器Timeout时间 = 960.13
+******模拟网络环境******：发送方的数据包将在948.85到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 28015,payload = GGGGGGGGGGHHHHHHHHH
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 28015, GGGGGGGGGG
+HHHHHHHH
+******模拟网络环境******：向上递交给应用层数据：GGGGGGGGGGHHHHHHHHH
+接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：接收方的确认包将在953.68到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 953.68, 定时器报文序号 = 2
+******模拟网络环境******：启动定时器, 当前时间 = 953.68, 定时器报文序号 = 3, 定时器Timeout时间 = 973.68
+* Sender: The sliding window: base: 3, next: 5
+> seqNum: 3
+> seqNum: 4
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 973.68, 定时器报文序号 = 3
+******模拟网络环境******：启动定时器, 当前时间 = 973.68, 定时器报文序号 = 3, 定时器Timeout时间 = 993.68
+******模拟网络环境******：发送方的数据包将在978.23到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 26722,payload = HHHHHHHHHHHIIIIIIII
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 26722, HHHHHHHHHHH
+IIIIIII
+******模拟网络环境******：向上递交给应用层数据：HHHHHHHHHHHIIIIIIII
+接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -999999, acknum = 3,checksum = 12848,payload = .....................
+******模拟网络环境******：接收方的确认包将在981.53到达对方, 确认包为-->seqnum = -999999, acknum = 3,checksum = 12848,payload = .....................
+Packet corrupt: : seqnum = -999999, acknum = 3, checksum = 12848, ....................
+* Sender: The sliding window: base: 3, next: 5
+> seqNum: 3
+> seqNum: 4
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 993.68, 定时器报文序号 = 3
+******模拟网络环境******：启动定时器, 当前时间 = 993.68, 定时器报文序号 = 3, 定时器Timeout时间 = 1013.68
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 3, acknum = -1,checksum = 26722,payload = HHHHHHHHHHHIIIIIIII
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1013.68, 定时器报文序号 = 3
+******模拟网络环境******：启动定时器, 当前时间 = 1013.68, 定时器报文序号 = 3, 定时器Timeout时间 = 1033.68
+******模拟网络环境******：发送方的数据包将在1015.32到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 26722,payload = HHHHHHHHHHHIIIIIIII
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 3, acknum = -1, checksum = 26722, HHHHHHHHHHH
+IIIIIII
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：接收方的确认包将在1021.11到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1021.11, 定时器报文序号 = 3
+******模拟网络环境******：启动定时器, 当前时间 = 1021.11, 定时器报文序号 = 4, 定时器Timeout时间 = 1041.11
+* Sender: The sliding window: base: 4, next: 5
+> seqNum: 4
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1041.11, 定时器报文序号 = 4
+******模拟网络环境******：启动定时器, 当前时间 = 1041.11, 定时器报文序号 = 4, 定时器Timeout时间 = 1061.11
+******模拟网络环境******：发送方的数据包将在1045.76到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 23644,payload = IIIIIIIIIIIIJJJJJJJ
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 23644, IIIIIIIIIIII
+JJJJJJ
+******模拟网络环境******：向上递交给应用层数据：IIIIIIIIIIIIJJJJJJJ
+接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：接收方的确认包将在1054.72到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1054.72, 定时器报文序号 = 4
+* Sender: The sliding window: base: 5, next: 5
+The sender send: : seqnum = 5, acknum = -1, checksum = 22351, JJJJJJJJJJJJJ
+KKKKK
+The packet sequence number: 5
+******模拟网络环境******：启动定时器, 当前时间 = 1054.98, 定时器报文序号 = 5, 定时器Timeout时间 = 1074.98
+******模拟网络环境******：发送方的数据包将在1058.82到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 22351,payload = JJJJJJJJJJJJJKKKKKK
+* Sender: The sliding window: base: 5, next: 6
+> seqNum: 5
+The sender send: : seqnum = 6, acknum = -1, checksum = 19273, KKKKKKKKKKKKKK
+LLLL
+The packet sequence number: 6
+******模拟网络环境******：发送方的数据包将在1062.58到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 19273,payload = KKKKKKKKKKKKKKLLLLL
+* Sender: The sliding window: base: 5, next: 7
+> seqNum: 5
+> seqNum: 6
+The sender send: : seqnum = 7, acknum = -1, checksum = 17980, LLLLLLLLLLLLLLL
+MMM
+The packet sequence number: 7
+******模拟网络环境******：发送方的数据包将在1066.8到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 17980,payload = LLLLLLLLLLLLLLLMMMM
+* Sender: The sliding window: base: 5, next: 0
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+The sender send: : seqnum = 0, acknum = -1, checksum = 14910, MMMMMMMMMMMMMMMM
+NN
+The packet sequence number: 0
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 0, acknum = -1,checksum = 14910,payload = MMMMMMMMMMMMMMMMNNN
+* Sender: The sliding window: base: 5, next: 1
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 22351, JJJJJJJJJJJJJ
+KKKKK
+******模拟网络环境******：向上递交给应用层数据：JJJJJJJJJJJJJKKKKKK
+接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：接收方的确认包将在1062.95到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+接收方正确收到发送方的报文: seqnum = 6, acknum = -1, checksum = 19273, KKKKKKKKKKKKKK
+LLLL
+******模拟网络环境******：向上递交给应用层数据：KKKKKKKKKKKKKKLLLLL
+接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方的确认包将在1071.6到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1062.95, 定时器报文序号 = 5
+******模拟网络环境******：启动定时器, 当前时间 = 1062.95, 定时器报文序号 = 6, 定时器Timeout时间 = 1082.95
+* Sender: The sliding window: base: 6, next: 1
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 17980, LLLLLLLLLLLLLLL
+MMM
+******模拟网络环境******：向上递交给应用层数据：LLLLLLLLLLLLLLLMMMM
+接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：接收方的确认包将在1073.61到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1071.6, 定时器报文序号 = 6
+******模拟网络环境******：启动定时器, 当前时间 = 1071.6, 定时器报文序号 = 7, 定时器Timeout时间 = 1091.6
+* Sender: The sliding window: base: 7, next: 1
+> seqNum: 7
+> seqNum: 0
+The sender received ACK packet: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1073.61, 定时器报文序号 = 7
+******模拟网络环境******：启动定时器, 当前时间 = 1073.61, 定时器报文序号 = 0, 定时器Timeout时间 = 1093.61
+* Sender: The sliding window: base: 0, next: 1
+> seqNum: 0
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1093.61, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1093.61, 定时器报文序号 = 0, 定时器Timeout时间 = 1113.61
+******模拟网络环境******：发送方的数据包将在1103.92到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 14910,payload = MMMMMMMMMMMMMMMMNNN
+接收方正确收到发送方的报文: seqnum = 0, acknum = -1, checksum = 14910, MMMMMMMMMMMMMMMM
+NN
+******模拟网络环境******：向上递交给应用层数据：MMMMMMMMMMMMMMMMNNN
+接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在1111.91到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1111.91, 定时器报文序号 = 0
+* Sender: The sliding window: base: 1, next: 1
+The sender send: : seqnum = 1, acknum = -1, checksum = 13617, NNNNNNNNNNNNNNNNN
+O
+The packet sequence number: 1
+******模拟网络环境******：启动定时器, 当前时间 = 1112.05, 定时器报文序号 = 1, 定时器Timeout时间 = 1132.05
+******模拟网络环境******：发送方的数据包将在1121.41到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 13617,payload = NNNNNNNNNNNNNNNNNOO
+* Sender: The sliding window: base: 1, next: 2
+> seqNum: 1
+The sender send: : seqnum = 2, acknum = -1, checksum = 10539, OOOOOOOOOOOOOOOOOO
+
+The packet sequence number: 2
+******模拟网络环境******：发送方的数据包将在1128.89到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 10539,payload = OOOOOOOOOOOOOOOOOOP
+* Sender: The sliding window: base: 1, next: 3
+> seqNum: 1
+> seqNum: 2
+The sender send: : seqnum = 3, acknum = -1, checksum = 56605, PPPPPPPPPPPPPPPPPPP
+The packet sequence number: 3
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 3, acknum = -1,checksum = 56605,payload = PPPPPPPPPPPPPPPPPPP
+* Sender: The sliding window: base: 1, next: 4
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+The sender send: : seqnum = 4, acknum = -1, checksum = 53967, QQQQQQQQQQQQQQQQQQQQ
+The packet sequence number: 4
+******模拟网络环境******：发送方的数据包将在1137.25到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 53967,payload = QQQQQQQQQQQQQQQQQQQQ
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 13617, NNNNNNNNNNNNNNNNN
+O
+******模拟网络环境******：向上递交给应用层数据：NNNNNNNNNNNNNNNNNOO
+接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方的确认包将在1123.56到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1123.56, 定时器报文序号 = 1
+******模拟网络环境******：启动定时器, 当前时间 = 1123.56, 定时器报文序号 = 2, 定时器Timeout时间 = 1143.56
+* Sender: The sliding window: base: 2, next: 5
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 10539, OOOOOOOOOOOOOOOOOO
+
+******模拟网络环境******：向上递交给应用层数据：OOOOOOOOOOOOOOOOOOP
+接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：接收方的确认包将在1136.24到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1136.24, 定时器报文序号 = 2
+******模拟网络环境******：启动定时器, 当前时间 = 1136.24, 定时器报文序号 = 3, 定时器Timeout时间 = 1156.24
+* Sender: The sliding window: base: 3, next: 5
+> seqNum: 3
+> seqNum: 4
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 4, acknum = -1, checksum = 53967, QQQQQQQQQQQQQQQQQQQQ
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：接收方的确认包将在1146.57到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+The packet has already confirmed: : seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：发送方的数据包将在1154.51到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 56605,payload = PPPPPPPPPPPPPPPPPPP
+快速重传: 3
+* Sender: The sliding window: base: 3, next: 5
+> seqNum: 3
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 56605, PPPPPPPPPPPPPPPPPPP
+******模拟网络环境******：向上递交给应用层数据：PPPPPPPPPPPPPPPPPPP
+接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：接收方的确认包将在1165.06到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1156.24, 定时器报文序号 = 3
+******模拟网络环境******：启动定时器, 当前时间 = 1156.24, 定时器报文序号 = 3, 定时器Timeout时间 = 1176.24
+******模拟网络环境******：发送方的数据包将在1157.82到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 56605,payload = PPPPPPPPPPPPPPPPPPP
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 3, acknum = -1, checksum = 56605, PPPPPPPPPPPPPPPPPPP
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：接收方的确认包将在1170.71到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1165.06, 定时器报文序号 = 3
+******模拟网络环境******：启动定时器, 当前时间 = 1165.06, 定时器报文序号 = 4, 定时器Timeout时间 = 1185.06
+* Sender: The sliding window: base: 4, next: 5
+> seqNum: 4
+The packet has already confirmed: : seqnum = -1, acknum = 3, checksum = 12848, ....................
+* Sender: The sliding window: base: 4, next: 5
+> seqNum: 4
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1185.06, 定时器报文序号 = 4
+******模拟网络环境******：启动定时器, 当前时间 = 1185.06, 定时器报文序号 = 4, 定时器Timeout时间 = 1205.06
+******模拟网络环境******：发送方的数据包将在1189.08到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 53967,payload = QQQQQQQQQQQQQQQQQQQQ
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 53967, QQQQQQQQQQQQQQQQQQQQ
+******模拟网络环境******：向上递交给应用层数据：QQQQQQQQQQQQQQQQQQQQ
+接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：接收方的确认包将在1193.1到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1193.1, 定时器报文序号 = 4
+* Sender: The sliding window: base: 5, next: 5
+The sender send: : seqnum = 5, acknum = -1, checksum = 4293, 
+RRRRRRRRRRRRRRRRRRR
+The packet sequence number: 5
+******模拟网络环境******：启动定时器, 当前时间 = 1193.15, 定时器报文序号 = 5, 定时器Timeout时间 = 1213.15
+******模拟网络环境******：发送方的数据包将在1201.43到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 4293,payload = RRRRRRRRRRRRRRRRRRRR
+* Sender: The sliding window: base: 5, next: 6
+> seqNum: 5
+The sender send: : seqnum = 6, acknum = -1, checksum = 1283, 
+SSSSSSSSSSSSSSSSSS
+The packet sequence number: 6
+******模拟网络环境******：发送方的数据包将在1204.82到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 1283,payload = SSSSSSSSSSSSSSSSSSS
+* Sender: The sliding window: base: 5, next: 7
+> seqNum: 5
+> seqNum: 6
+The sender send: : seqnum = 7, acknum = -1, checksum = 65525, S
+TTTTTTTTTTTTTTTTT
+The packet sequence number: 7
+******模拟网络环境******：发送方的数据包将在1207.85到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 65525,payload = STTTTTTTTTTTTTTTTTT
+* Sender: The sliding window: base: 5, next: 0
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+The sender send: : seqnum = 0, acknum = -1, checksum = 62455, TT
+UUUUUUUUUUUUUUUU
+The packet sequence number: 0
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 0, acknum = -1,checksum = 62455,payload = TTUUUUUUUUUUUUUUUUU
+* Sender: The sliding window: base: 5, next: 1
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 4293, 
+RRRRRRRRRRRRRRRRRRR
+******模拟网络环境******：向上递交给应用层数据：RRRRRRRRRRRRRRRRRRRR
+接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+接收方正确收到发送方的报文: seqnum = 6, acknum = -1, checksum = 1283, 
+SSSSSSSSSSSSSSSSSS
+******模拟网络环境******：向上递交给应用层数据：SSSSSSSSSSSSSSSSSSS
+接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方的确认包将在1208.91到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 65525, S
+TTTTTTTTTTTTTTTTT
+******模拟网络环境******：向上递交给应用层数据：STTTTTTTTTTTTTTTTTT
+接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：接收方的确认包将在1213.58到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1208.91, 定时器报文序号 = 5
+******模拟网络环境******：关闭定时器, 当前时间 = 1208.91, 定时器报文序号 = 6
+******模拟网络环境******：启动定时器, 当前时间 = 1208.91, 定时器报文序号 = 7, 定时器Timeout时间 = 1228.91
+* Sender: The sliding window: base: 7, next: 1
+> seqNum: 7
+> seqNum: 0
+The sender received ACK packet: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1213.58, 定时器报文序号 = 7
+******模拟网络环境******：启动定时器, 当前时间 = 1213.58, 定时器报文序号 = 0, 定时器Timeout时间 = 1233.58
+* Sender: The sliding window: base: 0, next: 1
+> seqNum: 0
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1233.58, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1233.58, 定时器报文序号 = 0, 定时器Timeout时间 = 1253.58
+******模拟网络环境******：发送方的数据包将在1242.9到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 62455,payload = TTUUUUUUUUUUUUUUUUU
+接收方正确收到发送方的报文: seqnum = 0, acknum = -1, checksum = 62455, TT
+UUUUUUUUUUUUUUUU
+******模拟网络环境******：向上递交给应用层数据：TTUUUUUUUUUUUUUUUUU
+接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在1248.76到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1248.76, 定时器报文序号 = 0
+* Sender: The sliding window: base: 1, next: 1
+The sender send: : seqnum = 1, acknum = -1, checksum = 61162, UUU
+VVVVVVVVVVVVVVV
+The packet sequence number: 1
+******模拟网络环境******：启动定时器, 当前时间 = 1249.47, 定时器报文序号 = 1, 定时器Timeout时间 = 1269.47
+******模拟网络环境******：发送方的数据包将在1257.8到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 61162,payload = UUUVVVVVVVVVVVVVVVV
+* Sender: The sliding window: base: 1, next: 2
+> seqNum: 1
+The sender send: : seqnum = 2, acknum = -1, checksum = 58084, VVVV
+WWWWWWWWWWWWWW
+The packet sequence number: 2
+******模拟网络环境******：发送方的数据包将在1263.4到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 58084,payload = VVVVWWWWWWWWWWWWWWW
+* Sender: The sliding window: base: 1, next: 3
+> seqNum: 1
+> seqNum: 2
+The sender send: : seqnum = 3, acknum = -1, checksum = 56791, WWWWW
+XXXXXXXXXXXXX
+The packet sequence number: 3
+******模拟网络环境******：发送方的数据包将在1264.92到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 56791,payload = WWWWWXXXXXXXXXXXXXX
+* Sender: The sliding window: base: 1, next: 4
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+The sender send: : seqnum = 4, acknum = -1, checksum = 53713, XXXXXX
+YYYYYYYYYYYY
+The packet sequence number: 4
+******模拟网络环境******：发送方的数据包将在1268.47到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 53713,payload = XXXXXXYYYYYYYYYYYYY
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 61162, UUU
+VVVVVVVVVVVVVVV
+******模拟网络环境******：向上递交给应用层数据：UUUVVVVVVVVVVVVVVVV
+接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方的确认包将在1262.35到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1262.35, 定时器报文序号 = 1
+******模拟网络环境******：启动定时器, 当前时间 = 1262.35, 定时器报文序号 = 2, 定时器Timeout时间 = 1282.35
+* Sender: The sliding window: base: 2, next: 5
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 58084, VVVV
+WWWWWWWWWWWWWW
+******模拟网络环境******：向上递交给应用层数据：VVVVWWWWWWWWWWWWWWW
+接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：接收方的确认包将在1264.9到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1264.9, 定时器报文序号 = 2
+******模拟网络环境******：启动定时器, 当前时间 = 1264.9, 定时器报文序号 = 3, 定时器Timeout时间 = 1284.9
+* Sender: The sliding window: base: 3, next: 5
+> seqNum: 3
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 56791, WWWWW
+XXXXXXXXXXXXX
+******模拟网络环境******：向上递交给应用层数据：WWWWWXXXXXXXXXXXXXX
+接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：接收方的确认包将在1269.78到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 53713, XXXXXX
+YYYYYYYYYYYY
+******模拟网络环境******：向上递交给应用层数据：XXXXXXYYYYYYYYYYYYY
+接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1269.78, 定时器报文序号 = 3
+******模拟网络环境******：启动定时器, 当前时间 = 1269.78, 定时器报文序号 = 4, 定时器Timeout时间 = 1289.78
+* Sender: The sliding window: base: 4, next: 5
+> seqNum: 4
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1289.78, 定时器报文序号 = 4
+******模拟网络环境******：启动定时器, 当前时间 = 1289.78, 定时器报文序号 = 4, 定时器Timeout时间 = 1309.78
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 4, acknum = -1,checksum = 53713,payload = XXXXXXYYYYYYYYYYYYY
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1309.78, 定时器报文序号 = 4
+******模拟网络环境******：启动定时器, 当前时间 = 1309.78, 定时器报文序号 = 4, 定时器Timeout时间 = 1329.78
+******模拟网络环境******：发送方的数据包将在1320.03到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 53713,payload = XXXXXXYYYYYYYYYYYYY
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 4, acknum = -1, checksum = 53713, XXXXXX
+YYYYYYYYYYYY
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：接收方的确认包将在1328.17到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1328.17, 定时器报文序号 = 4
+* Sender: The sliding window: base: 5, next: 5
+The sender send: : seqnum = 5, acknum = -1, checksum = 52420, YYYYYYY
+ZZZZZZZZZZZ
+The packet sequence number: 5
+******模拟网络环境******：启动定时器, 当前时间 = 1328.67, 定时器报文序号 = 5, 定时器Timeout时间 = 1348.67
+******模拟网络环境******：发送方的数据包将在1329.78到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 52420,payload = YYYYYYYZZZZZZZZZZZZ
+* Sender: The sliding window: base: 5, next: 6
+> seqNum: 5
+The sender send: : seqnum = 6, acknum = -1, checksum = 17217, ZZZZZZZZ
+AAAAAAAAAA
+The packet sequence number: 6
+******模拟网络环境******：发送方的数据包将在1334.93到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 17217,payload = ZZZZZZZZAAAAAAAAAAA
+* Sender: The sliding window: base: 5, next: 7
+> seqNum: 5
+> seqNum: 6
+The sender send: : seqnum = 7, acknum = -1, checksum = 42652, AAAAAAAAA
+BBBBBBBBB
+The packet sequence number: 7
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 7, acknum = -1,checksum = 42652,payload = BAAAAAAAABBBBBBBBBB
+******模拟网络环境******：发送方的数据包将在1337.17到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 42652,payload = BAAAAAAAABBBBBBBBBB
+* Sender: The sliding window: base: 5, next: 0
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+The sender send: : seqnum = 0, acknum = -1, checksum = 39582, BBBBBBBBBB
+CCCCCCCC
+The packet sequence number: 0
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 0, acknum = -1,checksum = 39582,payload = CBBBBBBBBBCCCCCCCCC
+******模拟网络环境******：发送方的数据包将在1339.62到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 39582,payload = CBBBBBBBBBCCCCCCCCC
+* Sender: The sliding window: base: 5, next: 1
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 52420, YYYYYYY
+ZZZZZZZZZZZ
+******模拟网络环境******：向上递交给应用层数据：YYYYYYYZZZZZZZZZZZZ
+接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：接收方的确认包将在1334.77到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1334.77, 定时器报文序号 = 5
+******模拟网络环境******：启动定时器, 当前时间 = 1334.77, 定时器报文序号 = 6, 定时器Timeout时间 = 1354.77
+* Sender: The sliding window: base: 6, next: 1
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方正确收到发送方的报文: seqnum = 6, acknum = -1, checksum = 17217, ZZZZZZZZ
+AAAAAAAAAA
+******模拟网络环境******：向上递交给应用层数据：ZZZZZZZZAAAAAAAAAAA
+接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方的确认包将在1344.31到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 7, acknum = -1, checksum = 42652, BAAAAAAAA
+BBBBBBBBB
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方的确认包将在1352.94到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 0, acknum = -1, checksum = 39582, CBBBBBBBBB
+CCCCCCCC
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方的确认包将在1358.71到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1344.31, 定时器报文序号 = 6
+******模拟网络环境******：启动定时器, 当前时间 = 1344.31, 定时器报文序号 = 7, 定时器Timeout时间 = 1364.31
+* Sender: The sliding window: base: 7, next: 1
+> seqNum: 7
+> seqNum: 0
+The packet has already confirmed: : seqnum = -1, acknum = 6, checksum = 12845, ....................
+* Sender: The sliding window: base: 7, next: 1
+> seqNum: 7
+> seqNum: 0
+The packet has already confirmed: : seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 7, acknum = -1,checksum = 42652,payload = BAAAAAAAABBBBBBBBBB
+******模拟网络环境******：发送方的数据包将在1361.14到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 42652,payload = BAAAAAAAABBBBBBBBBB
+快速重传: 7
+* Sender: The sliding window: base: 7, next: 1
+> seqNum: 7
+> seqNum: 0
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 7, acknum = -1, checksum = 42652, BAAAAAAAA
+BBBBBBBBB
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方的确认包将在1366.02到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1364.31, 定时器报文序号 = 7
+******模拟网络环境******：启动定时器, 当前时间 = 1364.31, 定时器报文序号 = 7, 定时器Timeout时间 = 1384.31
+******模拟网络环境******：发送方的数据包将在1370.79到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 42652,payload = AAAAAAAAABBBBBBBBBB
+The packet has already confirmed: : seqnum = -1, acknum = 6, checksum = 12845, ....................
+* Sender: The sliding window: base: 7, next: 1
+> seqNum: 7
+> seqNum: 0
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 42652, AAAAAAAAA
+BBBBBBBBB
+******模拟网络环境******：向上递交给应用层数据：AAAAAAAAABBBBBBBBBB
+接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：接收方的确认包将在1381.12到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1381.12, 定时器报文序号 = 7
+******模拟网络环境******：启动定时器, 当前时间 = 1381.12, 定时器报文序号 = 0, 定时器Timeout时间 = 1401.12
+* Sender: The sliding window: base: 0, next: 1
+> seqNum: 0
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1401.12, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1401.12, 定时器报文序号 = 0, 定时器Timeout时间 = 1421.12
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 0, acknum = -1,checksum = 39582,payload = BBBBBBBBBBCCCCCCCCC
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1421.12, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1421.12, 定时器报文序号 = 0, 定时器Timeout时间 = 1441.12
+******模拟网络环境******：发送方的数据包将在1426.09到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 39582,payload = BBBBBBBBBBCCCCCCCCC
+接收方正确收到发送方的报文: seqnum = 0, acknum = -1, checksum = 39582, BBBBBBBBBB
+CCCCCCCC
+******模拟网络环境******：向上递交给应用层数据：BBBBBBBBBBCCCCCCCCC
+接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在1435.34到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1435.34, 定时器报文序号 = 0
+* Sender: The sliding window: base: 1, next: 1
+The sender send: : seqnum = 1, acknum = -1, checksum = 38289, CCCCCCCCCCC
+DDDDDDD
+The packet sequence number: 1
+******模拟网络环境******：启动定时器, 当前时间 = 1435.56, 定时器报文序号 = 1, 定时器Timeout时间 = 1455.56
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 1, acknum = -1,checksum = 38289,payload = CCCCCCCCCCCDDDDDDDD
+* Sender: The sliding window: base: 1, next: 2
+> seqNum: 1
+The sender send: : seqnum = 2, acknum = -1, checksum = 35211, DDDDDDDDDDDD
+EEEEEE
+The packet sequence number: 2
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 2, acknum = -1,checksum = 35211,payload = EDDDDDDDDDDDEEEEEEE
+******模拟网络环境******：发送方的数据包将在1443.6到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 35211,payload = EDDDDDDDDDDDEEEEEEE
+* Sender: The sliding window: base: 1, next: 3
+> seqNum: 1
+> seqNum: 2
+The sender send: : seqnum = 3, acknum = -1, checksum = 33918, EEEEEEEEEEEEE
+FFFFF
+The packet sequence number: 3
+******模拟网络环境******：发送方的数据包将在1444.88到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 33918,payload = EEEEEEEEEEEEEFFFFFF
+* Sender: The sliding window: base: 1, next: 4
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+The sender send: : seqnum = 4, acknum = -1, checksum = 30840, FFFFFFFFFFFFFF
+GGGG
+The packet sequence number: 4
+******模拟网络环境******：发送方的数据包将在1451.86到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 30840,payload = FFFFFFFFFFFFFFGGGGG
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 2, acknum = -1, checksum = 35211, EDDDDDDDDDDD
+EEEEEE
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在1453.43到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 3, acknum = -1, checksum = 33918, EEEEEEEEEEEEE
+FFFFF
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在1456.74到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 4, acknum = -1, checksum = 30840, FFFFFFFFFFFFFF
+GGGG
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在1460.25到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+The packet has already confirmed: : seqnum = -1, acknum = 0, checksum = 12851, ....................
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1455.56, 定时器报文序号 = 1
+******模拟网络环境******：启动定时器, 当前时间 = 1455.56, 定时器报文序号 = 1, 定时器Timeout时间 = 1475.56
+******模拟网络环境******：发送方的数据包将在1463.04到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 38289,payload = CCCCCCCCCCCDDDDDDDD
+The packet has already confirmed: : seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：发送方的数据包将在1472.3到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 38289,payload = CCCCCCCCCCCDDDDDDDD
+快速重传: 1
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+The packet has already confirmed: : seqnum = -1, acknum = 0, checksum = 12851, ....................
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 38289, CCCCCCCCCCC
+DDDDDDD
+******模拟网络环境******：向上递交给应用层数据：CCCCCCCCCCCDDDDDDDD
+接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方的确认包将在1465.74到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1465.74, 定时器报文序号 = 1
+******模拟网络环境******：启动定时器, 当前时间 = 1465.74, 定时器报文序号 = 2, 定时器Timeout时间 = 1485.74
+* Sender: The sliding window: base: 2, next: 5
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 1, acknum = -1, checksum = 38289, CCCCCCCCCCC
+DDDDDDD
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方的确认包将在1478.76到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+The packet has already confirmed: : seqnum = -1, acknum = 1, checksum = 12850, ....................
+* Sender: The sliding window: base: 2, next: 5
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1485.74, 定时器报文序号 = 2
+******模拟网络环境******：启动定时器, 当前时间 = 1485.74, 定时器报文序号 = 2, 定时器Timeout时间 = 1505.74
+******模拟网络环境******：发送方的数据包将在1491.4到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 35211,payload = DDDDDDDDDDDDEEEEEEE
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 35211, DDDDDDDDDDDD
+EEEEEE
+******模拟网络环境******：向上递交给应用层数据：DDDDDDDDDDDDEEEEEEE
+接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：接收方的确认包将在1499.65到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1499.65, 定时器报文序号 = 2
+******模拟网络环境******：启动定时器, 当前时间 = 1499.65, 定时器报文序号 = 3, 定时器Timeout时间 = 1519.65
+* Sender: The sliding window: base: 3, next: 5
+> seqNum: 3
+> seqNum: 4
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1519.65, 定时器报文序号 = 3
+******模拟网络环境******：启动定时器, 当前时间 = 1519.65, 定时器报文序号 = 3, 定时器Timeout时间 = 1539.65
+******模拟网络环境******：发送方的数据包将在1525.45到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 33918,payload = EEEEEEEEEEEEEFFFFFF
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 33918, EEEEEEEEEEEEE
+FFFFF
+******模拟网络环境******：向上递交给应用层数据：EEEEEEEEEEEEEFFFFFF
+接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = /....................
+******模拟网络环境******：接收方的确认包将在1533.49到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = /....................
+Packet corrupt: : seqnum = -1, acknum = 3, checksum = 12848, /...................
+* Sender: The sliding window: base: 3, next: 5
+> seqNum: 3
+> seqNum: 4
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1539.65, 定时器报文序号 = 3
+******模拟网络环境******：启动定时器, 当前时间 = 1539.65, 定时器报文序号 = 3, 定时器Timeout时间 = 1559.65
+******模拟网络环境******：发送方的数据包将在1543.52到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 33918,payload = EEEEEEEEEEEEEFFFFFF
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 3, acknum = -1, checksum = 33918, EEEEEEEEEEEEE
+FFFFF
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：接收方的确认包将在1549.9到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1549.9, 定时器报文序号 = 3
+******模拟网络环境******：启动定时器, 当前时间 = 1549.9, 定时器报文序号 = 4, 定时器Timeout时间 = 1569.9
+* Sender: The sliding window: base: 4, next: 5
+> seqNum: 4
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1569.9, 定时器报文序号 = 4
+******模拟网络环境******：启动定时器, 当前时间 = 1569.9, 定时器报文序号 = 4, 定时器Timeout时间 = 1589.9
+******模拟网络环境******：发送方的数据包将在1576.29到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 30840,payload = FFFFFFFFFFFFFFGGGGG
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 30840, FFFFFFFFFFFFFF
+GGGG
+******模拟网络环境******：向上递交给应用层数据：FFFFFFFFFFFFFFGGGGG
+接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：接收方的确认包将在1584.46到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1584.46, 定时器报文序号 = 4
+* Sender: The sliding window: base: 5, next: 5
+The sender send: : seqnum = 5, acknum = -1, checksum = 29547, GGGGGGGGGGGGGGG
+HHH
+The packet sequence number: 5
+******模拟网络环境******：启动定时器, 当前时间 = 1584.48, 定时器报文序号 = 5, 定时器Timeout时间 = 1604.48
+******模拟网络环境******：发送方的数据包将在1588.75到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 29547,payload = GGGGGGGGGGGGGGGHHHH
+* Sender: The sliding window: base: 5, next: 6
+> seqNum: 5
+The sender send: : seqnum = 6, acknum = -1, checksum = 26469, HHHHHHHHHHHHHHHH
+II
+The packet sequence number: 6
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -999999, acknum = -1,checksum = 26469,payload = HHHHHHHHHHHHHHHHIII
+******模拟网络环境******：发送方的数据包将在1598.73到达对方, 数据包为-->seqnum = -999999, acknum = -1,checksum = 26469,payload = HHHHHHHHHHHHHHHHIII
+* Sender: The sliding window: base: 5, next: 7
+> seqNum: 5
+> seqNum: 6
+The sender send: : seqnum = 7, acknum = -1, checksum = 25176, IIIIIIIIIIIIIIIII
+J
+The packet sequence number: 7
+******模拟网络环境******：发送方的数据包将在1600.44到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 25176,payload = IIIIIIIIIIIIIIIIIJJ
+* Sender: The sliding window: base: 5, next: 0
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+The sender send: : seqnum = 0, acknum = -1, checksum = 22106, JJJJJJJJJJJJJJJJJJ
+
+The packet sequence number: 0
+******模拟网络环境******：发送方的数据包将在1602.71到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 22106,payload = JJJJJJJJJJJJJJJJJJK
+* Sender: The sliding window: base: 5, next: 1
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 29547, GGGGGGGGGGGGGGG
+HHH
+******模拟网络环境******：向上递交给应用层数据：GGGGGGGGGGGGGGGHHHH
+接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：接收方的确认包将在1593.9到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1593.9, 定时器报文序号 = 5
+******模拟网络环境******：启动定时器, 当前时间 = 1593.9, 定时器报文序号 = 6, 定时器Timeout时间 = 1613.9
+* Sender: The sliding window: base: 6, next: 1
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = -999999, acknum = -1, checksum = 26469, HHHHHHHHHHHHHHHH
+II
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：接收方的确认包将在1602.78到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 7, acknum = -1, checksum = 25176, IIIIIIIIIIIIIIIII
+J
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 0, acknum = -1, checksum = 22106, JJJJJJJJJJJJJJJJJJ
+
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：接收方的确认包将在1605.5到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+The packet has already confirmed: : seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：发送方的数据包将在1604.69到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 26469,payload = HHHHHHHHHHHHHHHHIII
+快速重传: 6
+* Sender: The sliding window: base: 6, next: 1
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方正确收到发送方的报文: seqnum = 6, acknum = -1, checksum = 26469, HHHHHHHHHHHHHHHH
+II
+******模拟网络环境******：向上递交给应用层数据：HHHHHHHHHHHHHHHHIII
+接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方的确认包将在1607.41到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+The packet has already confirmed: : seqnum = -1, acknum = 5, checksum = 12846, ....................
+* Sender: The sliding window: base: 6, next: 1
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+The sender received ACK packet: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1607.41, 定时器报文序号 = 6
+******模拟网络环境******：启动定时器, 当前时间 = 1607.41, 定时器报文序号 = 7, 定时器Timeout时间 = 1627.41
+* Sender: The sliding window: base: 7, next: 1
+> seqNum: 7
+> seqNum: 0
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1627.41, 定时器报文序号 = 7
+******模拟网络环境******：启动定时器, 当前时间 = 1627.41, 定时器报文序号 = 7, 定时器Timeout时间 = 1647.41
+******模拟网络环境******：发送方的数据包将在1637.65到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 25176,payload = IIIIIIIIIIIIIIIIIJJ
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 25176, IIIIIIIIIIIIIIIII
+J
+******模拟网络环境******：向上递交给应用层数据：IIIIIIIIIIIIIIIIIJJ
+接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：接收方的确认包将在1648.16到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1647.41, 定时器报文序号 = 7
+******模拟网络环境******：启动定时器, 当前时间 = 1647.41, 定时器报文序号 = 7, 定时器Timeout时间 = 1667.41
+******模拟网络环境******：发送方的数据包将在1650.43到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 25176,payload = IIIIIIIIIIIIIIIIIJJ
+The sender received ACK packet: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1648.16, 定时器报文序号 = 7
+******模拟网络环境******：启动定时器, 当前时间 = 1648.16, 定时器报文序号 = 0, 定时器Timeout时间 = 1668.16
+* Sender: The sliding window: base: 0, next: 1
+> seqNum: 0
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 7, acknum = -1, checksum = 25176, IIIIIIIIIIIIIIIII
+J
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：接收方的确认包将在1657.68到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
+The packet has already confirmed: : seqnum = -1, acknum = 7, checksum = 12844, ....................
+* Sender: The sliding window: base: 0, next: 1
+> seqNum: 0
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1668.16, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1668.16, 定时器报文序号 = 0, 定时器Timeout时间 = 1688.16
+******模拟网络环境******：发送方的数据包将在1670.21到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 22106,payload = JJJJJJJJJJJJJJJJJJK
+接收方正确收到发送方的报文: seqnum = 0, acknum = -1, checksum = 22106, JJJJJJJJJJJJJJJJJJ
+
+******模拟网络环境******：向上递交给应用层数据：JJJJJJJJJJJJJJJJJJK
+接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = /....................
+******模拟网络环境******：接收方的确认包将在1678.4到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = /....................
+Packet corrupt: : seqnum = -1, acknum = 0, checksum = 12851, /...................
+* Sender: The sliding window: base: 0, next: 1
+> seqNum: 0
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1688.16, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 1688.16, 定时器报文序号 = 0, 定时器Timeout时间 = 1708.16
+******模拟网络环境******：发送方的数据包将在1697.04到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 22106,payload = JJJJJJJJJJJJJJJJJJK
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 0, acknum = -1, checksum = 22106, JJJJJJJJJJJJJJJJJJ
+
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在1701.16到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1701.16, 定时器报文序号 = 0
+* Sender: The sliding window: base: 1, next: 1
+The sender send: : seqnum = 1, acknum = -1, checksum = 3917, KKKKKKKKKKKKKKKKKKK
+The packet sequence number: 1
+******模拟网络环境******：启动定时器, 当前时间 = 1701.75, 定时器报文序号 = 1, 定时器Timeout时间 = 1721.75
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 1, acknum = -1,checksum = 3917,payload = LKKKKKKKKKKKKKKKKKK
+******模拟网络环境******：发送方的数据包将在1710.45到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 3917,payload = LKKKKKKKKKKKKKKKKKK
+* Sender: The sliding window: base: 1, next: 2
+> seqNum: 1
+The sender send: : seqnum = 2, acknum = -1, checksum = 1284, LLLLLLLLLLLLLLLLLLLL
+The packet sequence number: 2
+******模拟网络环境******：发送方的数据包将在1712.18到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 1284,payload = LLLLLLLLLLLLLLLLLLLL
+* Sender: The sliding window: base: 1, next: 3
+> seqNum: 1
+> seqNum: 2
+The sender send: : seqnum = 3, acknum = -1, checksum = 15865, 
+MMMMMMMMMMMMMMMMMMM
+The packet sequence number: 3
+******模拟网络环境******：发送方的数据包将在1715.93到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 15865,payload = MMMMMMMMMMMMMMMMMMMM
+* Sender: The sliding window: base: 1, next: 4
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+The sender send: : seqnum = 4, acknum = -1, checksum = 12850, 
+NNNNNNNNNNNNNNNNNN
+The packet sequence number: 4
+******模拟网络环境******：发送方的数据包将在1719.46到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 12850,payload = NNNNNNNNNNNNNNNNNNN
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 1, acknum = -1, checksum = 3917, LKKKKKKKKKKKKKKKKKK
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在1715.03到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 2, acknum = -1, checksum = 1284, LLLLLLLLLLLLLLLLLLLL
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在1724.81到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+The packet has already confirmed: : seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：发送方的数据包将在1724.53到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 3917,payload = KKKKKKKKKKKKKKKKKKK
+快速重传: 1
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 3, acknum = -1, checksum = 15865, 
+MMMMMMMMMMMMMMMMMMM
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 4, acknum = -1, checksum = 12850, 
+NNNNNNNNNNNNNNNNNN
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在1733.23到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1721.75, 定时器报文序号 = 1
+******模拟网络环境******：启动定时器, 当前时间 = 1721.75, 定时器报文序号 = 1, 定时器Timeout时间 = 1741.75
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 1, acknum = -1,checksum = 3917,payload = LKKKKKKKKKKKKKKKKKK
+******模拟网络环境******：发送方的数据包将在1727.61到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 3917,payload = LKKKKKKKKKKKKKKKKKK
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 3917, KKKKKKKKKKKKKKKKKKK
+******模拟网络环境******：向上递交给应用层数据：KKKKKKKKKKKKKKKKKKK
+接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方的确认包将在1739.93到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+The packet has already confirmed: : seqnum = -1, acknum = 0, checksum = 12851, ....................
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 1, acknum = -1, checksum = 3917, LKKKKKKKKKKKKKKKKKK
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方的确认包将在1744.76到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+The packet has already confirmed: : seqnum = -1, acknum = 0, checksum = 12851, ....................
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+The sender received ACK packet: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1739.93, 定时器报文序号 = 1
+******模拟网络环境******：启动定时器, 当前时间 = 1739.93, 定时器报文序号 = 2, 定时器Timeout时间 = 1759.93
+* Sender: The sliding window: base: 2, next: 5
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+The packet has already confirmed: : seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：发送方的数据包将在1754.46到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 1284,payload = LLLLLLLLLLLLLLLLLLLL
+快速重传: 2
+* Sender: The sliding window: base: 2, next: 5
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 1284, LLLLLLLLLLLLLLLLLLLL
+******模拟网络环境******：向上递交给应用层数据：LLLLLLLLLLLLLLLLLLLL
+接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：接收方的确认包将在1763.7到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1759.93, 定时器报文序号 = 2
+******模拟网络环境******：启动定时器, 当前时间 = 1759.93, 定时器报文序号 = 2, 定时器Timeout时间 = 1779.93
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -999999, acknum = -1,checksum = 1284,payload = LLLLLLLLLLLLLLLLLLLL
+******模拟网络环境******：发送方的数据包将在1768.7到达对方, 数据包为-->seqnum = -999999, acknum = -1,checksum = 1284,payload = LLLLLLLLLLLLLLLLLLLL
+The sender received ACK packet: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1763.7, 定时器报文序号 = 2
+******模拟网络环境******：启动定时器, 当前时间 = 1763.7, 定时器报文序号 = 3, 定时器Timeout时间 = 1783.7
+* Sender: The sliding window: base: 3, next: 5
+> seqNum: 3
+> seqNum: 4
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = -999999, acknum = -1, checksum = 1284, LLLLLLLLLLLLLLLLLLLL
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：接收方的确认包将在1769.77到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+The packet has already confirmed: : seqnum = -1, acknum = 2, checksum = 12849, ....................
+* Sender: The sliding window: base: 3, next: 5
+> seqNum: 3
+> seqNum: 4
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1783.7, 定时器报文序号 = 3
+******模拟网络环境******：启动定时器, 当前时间 = 1783.7, 定时器报文序号 = 3, 定时器Timeout时间 = 1803.7
+******模拟网络环境******：发送方的数据包将在1788.85到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 15865,payload = MMMMMMMMMMMMMMMMMMMM
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 15865, 
+MMMMMMMMMMMMMMMMMMM
+******模拟网络环境******：向上递交给应用层数据：MMMMMMMMMMMMMMMMMMMM
+接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：接收方的确认包将在1791.81到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1791.81, 定时器报文序号 = 3
+******模拟网络环境******：启动定时器, 当前时间 = 1791.81, 定时器报文序号 = 4, 定时器Timeout时间 = 1811.81
+* Sender: The sliding window: base: 4, next: 5
+> seqNum: 4
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1811.81, 定时器报文序号 = 4
+******模拟网络环境******：启动定时器, 当前时间 = 1811.81, 定时器报文序号 = 4, 定时器Timeout时间 = 1831.81
+******模拟网络环境******：发送方的数据包将在1818.98到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 12850,payload = NNNNNNNNNNNNNNNNNNN
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 12850, 
+NNNNNNNNNNNNNNNNNN
+******模拟网络环境******：向上递交给应用层数据：NNNNNNNNNNNNNNNNNNN
+接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：接收方的确认包将在1828.28到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1828.28, 定时器报文序号 = 4
+* Sender: The sliding window: base: 5, next: 5
+The sender send: : seqnum = 5, acknum = -1, checksum = 11557, N
+OOOOOOOOOOOOOOOOO
+The packet sequence number: 5
+******模拟网络环境******：启动定时器, 当前时间 = 1829.04, 定时器报文序号 = 5, 定时器Timeout时间 = 1849.04
+******模拟网络环境******：发送方的数据包将在1839.11到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 11557,payload = NOOOOOOOOOOOOOOOOOO
+* Sender: The sliding window: base: 5, next: 6
+> seqNum: 5
+The sender send: : seqnum = 6, acknum = -1, checksum = 8479, OO
+PPPPPPPPPPPPPPPP
+The packet sequence number: 6
+******模拟网络环境******：发送方的数据包将在1840.94到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 8479,payload = OOPPPPPPPPPPPPPPPPP
+* Sender: The sliding window: base: 5, next: 7
+> seqNum: 5
+> seqNum: 6
+The sender send: : seqnum = 7, acknum = -1, checksum = 7186, PPP
+QQQQQQQQQQQQQQQ
+The packet sequence number: 7
+******模拟网络环境******：发送方的数据包将在1850.87到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 7186,payload = PPPQQQQQQQQQQQQQQQQ
+* Sender: The sliding window: base: 5, next: 0
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+The sender send: : seqnum = 0, acknum = -1, checksum = 4116, QQQQ
+RRRRRRRRRRRRRR
+The packet sequence number: 0
+******模拟网络环境******：发送方的数据包将在1858.14到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 4116,payload = QQQQRRRRRRRRRRRRRRR
+* Sender: The sliding window: base: 5, next: 1
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 11557, N
+OOOOOOOOOOOOOOOOO
+******模拟网络环境******：向上递交给应用层数据：NOOOOOOOOOOOOOOOOOO
+接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：接收方的确认包将在1846.62到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+接收方正确收到发送方的报文: seqnum = 6, acknum = -1, checksum = 8479, OO
+PPPPPPPPPPPPPPPP
+******模拟网络环境******：向上递交给应用层数据：OOPPPPPPPPPPPPPPPPP
+接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方的确认包将在1855.15到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1846.62, 定时器报文序号 = 5
+******模拟网络环境******：启动定时器, 当前时间 = 1846.62, 定时器报文序号 = 6, 定时器Timeout时间 = 1866.62
+* Sender: The sliding window: base: 6, next: 1
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 7186, PPP
+QQQQQQQQQQQQQQQ
+******模拟网络环境******：向上递交给应用层数据：PPPQQQQQQQQQQQQQQQQ
+接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：接收方的确认包将在1865.65到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1855.15, 定时器报文序号 = 6
+******模拟网络环境******：启动定时器, 当前时间 = 1855.15, 定时器报文序号 = 7, 定时器Timeout时间 = 1875.15
+* Sender: The sliding window: base: 7, next: 1
+> seqNum: 7
+> seqNum: 0
+接收方正确收到发送方的报文: seqnum = 0, acknum = -1, checksum = 4116, QQQQ
+RRRRRRRRRRRRRR
+******模拟网络环境******：向上递交给应用层数据：QQQQRRRRRRRRRRRRRRR
+接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在1869.58到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1865.65, 定时器报文序号 = 7
+******模拟网络环境******：启动定时器, 当前时间 = 1865.65, 定时器报文序号 = 0, 定时器Timeout时间 = 1885.65
+* Sender: The sliding window: base: 0, next: 1
+> seqNum: 0
+The sender received ACK packet: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1869.58, 定时器报文序号 = 0
+* Sender: The sliding window: base: 1, next: 1
+The sender send: : seqnum = 1, acknum = -1, checksum = 2823, RRRRR
+SSSSSSSSSSSSS
+The packet sequence number: 1
+******模拟网络环境******：启动定时器, 当前时间 = 1869.58, 定时器报文序号 = 1, 定时器Timeout时间 = 1889.58
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -999999, acknum = -1,checksum = 2823,payload = RRRRRSSSSSSSSSSSSSS
+******模拟网络环境******：发送方的数据包将在1880.04到达对方, 数据包为-->seqnum = -999999, acknum = -1,checksum = 2823,payload = RRRRRSSSSSSSSSSSSSS
+* Sender: The sliding window: base: 1, next: 2
+> seqNum: 1
+The sender send: : seqnum = 2, acknum = -1, checksum = 65280, SSSSSS
+TTTTTTTTTTTT
+The packet sequence number: 2
+******模拟网络环境******：发送方的数据包将在1884.85到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 65280,payload = SSSSSSTTTTTTTTTTTTT
+* Sender: The sliding window: base: 1, next: 3
+> seqNum: 1
+> seqNum: 2
+The sender send: : seqnum = 3, acknum = -1, checksum = 63987, TTTTTTT
+UUUUUUUUUUU
+The packet sequence number: 3
+******模拟网络环境******：发送方的数据包将在1888.6到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 63987,payload = TTTTTTTUUUUUUUUUUUU
+* Sender: The sliding window: base: 1, next: 4
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+The sender send: : seqnum = 4, acknum = -1, checksum = 60909, UUUUUUUU
+VVVVVVVVVV
+The packet sequence number: 4
+******模拟网络环境******：发送方的数据包将在1892.14到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 60909,payload = UUUUUUUUVVVVVVVVVVV
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = -999999, acknum = -1, checksum = 2823, RRRRR
+SSSSSSSSSSSSS
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在1890.09到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 2, acknum = -1, checksum = 65280, SSSSSS
+TTTTTTTTTTTT
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在1891.19到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 3, acknum = -1, checksum = 63987, TTTTTTT
+UUUUUUUUUUU
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在1901.8到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1889.58, 定时器报文序号 = 1
+******模拟网络环境******：启动定时器, 当前时间 = 1889.58, 定时器报文序号 = 1, 定时器Timeout时间 = 1909.58
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 1, acknum = -1,checksum = 2823,payload = RRRRRSSSSSSSSSSSSSS
+The packet has already confirmed: : seqnum = -1, acknum = 0, checksum = 12851, ....................
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+The packet has already confirmed: : seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：发送方的数据包将在1894.02到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 2823,payload = RRRRRSSSSSSSSSSSSSS
+快速重传: 1
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 4, acknum = -1, checksum = 60909, UUUUUUUU
+VVVVVVVVVV
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在1907.23到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 2823, RRRRR
+SSSSSSSSSSSSS
+******模拟网络环境******：向上递交给应用层数据：RRRRRSSSSSSSSSSSSSS
+接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方的确认包将在1916.57到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+The packet has already confirmed: : seqnum = -1, acknum = 0, checksum = 12851, ....................
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+The packet has already confirmed: : seqnum = -1, acknum = 0, checksum = 12851, ....................
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1909.58, 定时器报文序号 = 1
+******模拟网络环境******：启动定时器, 当前时间 = 1909.58, 定时器报文序号 = 1, 定时器Timeout时间 = 1929.58
+******模拟网络环境******：发送方的数据包将在1911.91到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 2823,payload = RRRRRSSSSSSSSSSSSSS
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 1, acknum = -1, checksum = 2823, RRRRR
+SSSSSSSSSSSSS
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方的确认包将在1922.71到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1916.57, 定时器报文序号 = 1
+******模拟网络环境******：启动定时器, 当前时间 = 1916.57, 定时器报文序号 = 2, 定时器Timeout时间 = 1936.57
+* Sender: The sliding window: base: 2, next: 5
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+The packet has already confirmed: : seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：发送方的数据包将在1925.12到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 65280,payload = SSSSSSTTTTTTTTTTTTT
+快速重传: 2
+* Sender: The sliding window: base: 2, next: 5
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 65280, SSSSSS
+TTTTTTTTTTTT
+******模拟网络环境******：向上递交给应用层数据：SSSSSSTTTTTTTTTTTTT
+接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：接收方的确认包将在1930.07到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1930.07, 定时器报文序号 = 2
+******模拟网络环境******：启动定时器, 当前时间 = 1930.07, 定时器报文序号 = 3, 定时器Timeout时间 = 1950.07
+* Sender: The sliding window: base: 3, next: 5
+> seqNum: 3
+> seqNum: 4
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1950.07, 定时器报文序号 = 3
+******模拟网络环境******：启动定时器, 当前时间 = 1950.07, 定时器报文序号 = 3, 定时器Timeout时间 = 1970.07
+******模拟网络环境******：发送方的数据包将在1957.59到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 63987,payload = TTTTTTTUUUUUUUUUUUU
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 63987, TTTTTTT
+UUUUUUUUUUU
+******模拟网络环境******：向上递交给应用层数据：TTTTTTTUUUUUUUUUUUU
+接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：接收方的确认包将在1965.22到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 1965.22, 定时器报文序号 = 3
+******模拟网络环境******：启动定时器, 当前时间 = 1965.22, 定时器报文序号 = 4, 定时器Timeout时间 = 1985.22
+* Sender: The sliding window: base: 4, next: 5
+> seqNum: 4
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 1985.22, 定时器报文序号 = 4
+******模拟网络环境******：启动定时器, 当前时间 = 1985.22, 定时器报文序号 = 4, 定时器Timeout时间 = 2005.22
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 4, acknum = -1,checksum = 60909,payload = VUUUUUUUVVVVVVVVVVV
+******模拟网络环境******：发送方的数据包将在1995.49到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 60909,payload = VUUUUUUUVVVVVVVVVVV
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 4, acknum = -1, checksum = 60909, VUUUUUUU
+VVVVVVVVVV
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：接收方的确认包将在1996.64到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+The packet has already confirmed: : seqnum = -1, acknum = 3, checksum = 12848, ....................
+* Sender: The sliding window: base: 4, next: 5
+> seqNum: 4
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 2005.22, 定时器报文序号 = 4
+******模拟网络环境******：启动定时器, 当前时间 = 2005.22, 定时器报文序号 = 4, 定时器Timeout时间 = 2025.22
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 4, acknum = -1,checksum = 60909,payload = UUUUUUUUVVVVVVVVVVV
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 2025.22, 定时器报文序号 = 4
+******模拟网络环境******：启动定时器, 当前时间 = 2025.22, 定时器报文序号 = 4, 定时器Timeout时间 = 2045.22
+******模拟网络环境******：发送方的数据包将在2027.97到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 60909,payload = UUUUUUUUVVVVVVVVVVV
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 60909, UUUUUUUU
+VVVVVVVVVV
+******模拟网络环境******：向上递交给应用层数据：UUUUUUUUVVVVVVVVVVV
+接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：接收方的确认包将在2029.97到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2029.97, 定时器报文序号 = 4
+* Sender: The sliding window: base: 5, next: 5
+The sender send: : seqnum = 5, acknum = -1, checksum = 59616, VVVVVVVVV
+WWWWWWWWW
+The packet sequence number: 5
+******模拟网络环境******：启动定时器, 当前时间 = 2030.3, 定时器报文序号 = 5, 定时器Timeout时间 = 2050.3
+******模拟网络环境******：发送方的数据包将在2039.15到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 59616,payload = VVVVVVVVVWWWWWWWWWW
+* Sender: The sliding window: base: 5, next: 6
+> seqNum: 5
+The sender send: : seqnum = 6, acknum = -1, checksum = 56538, WWWWWWWWWW
+XXXXXXXX
+The packet sequence number: 6
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 6, acknum = -1,checksum = 56538,payload = XWWWWWWWWWXXXXXXXXX
+******模拟网络环境******：发送方的数据包将在2048.18到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 56538,payload = XWWWWWWWWWXXXXXXXXX
+* Sender: The sliding window: base: 5, next: 7
+> seqNum: 5
+> seqNum: 6
+The sender send: : seqnum = 7, acknum = -1, checksum = 55245, XXXXXXXXXXX
+YYYYYYY
+The packet sequence number: 7
+******模拟网络环境******：发送方的数据包将在2052到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 55245,payload = XXXXXXXXXXXYYYYYYYY
+* Sender: The sliding window: base: 5, next: 0
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+The sender send: : seqnum = 0, acknum = -1, checksum = 52175, YYYYYYYYYYYY
+ZZZZZZ
+The packet sequence number: 0
+******模拟网络环境******：发送方的数据包将在2054.75到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 52175,payload = YYYYYYYYYYYYZZZZZZZ
+* Sender: The sliding window: base: 5, next: 1
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 59616, VVVVVVVVV
+WWWWWWWWW
+******模拟网络环境******：向上递交给应用层数据：VVVVVVVVVWWWWWWWWWW
+接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：接收方的确认包将在2041.17到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2041.17, 定时器报文序号 = 5
+******模拟网络环境******：启动定时器, 当前时间 = 2041.17, 定时器报文序号 = 6, 定时器Timeout时间 = 2061.17
+* Sender: The sliding window: base: 6, next: 1
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 6, acknum = -1, checksum = 56538, XWWWWWWWWW
+XXXXXXXX
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = /....................
+******模拟网络环境******：接收方的确认包将在2055.27到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = /....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 7, acknum = -1, checksum = 55245, XXXXXXXXXXX
+YYYYYYY
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：接收方的确认包将在2064.11到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 0, acknum = -1, checksum = 52175, YYYYYYYYYYYY
+ZZZZZZ
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：接收方的确认包将在2067.47到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+Packet corrupt: : seqnum = -1, acknum = 5, checksum = 12846, /...................
+* Sender: The sliding window: base: 6, next: 1
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 2061.17, 定时器报文序号 = 6
+******模拟网络环境******：启动定时器, 当前时间 = 2061.17, 定时器报文序号 = 6, 定时器Timeout时间 = 2081.17
+******模拟网络环境******：发送方的数据包将在2066.06到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 56538,payload = WWWWWWWWWWXXXXXXXXX
+The packet has already confirmed: : seqnum = -1, acknum = 5, checksum = 12846, ....................
+* Sender: The sliding window: base: 6, next: 1
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方正确收到发送方的报文: seqnum = 6, acknum = -1, checksum = 56538, WWWWWWWWWW
+XXXXXXXX
+******模拟网络环境******：向上递交给应用层数据：WWWWWWWWWWXXXXXXXXX
+接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+The packet has already confirmed: : seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：发送方的数据包将在2071.98到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 56538,payload = WWWWWWWWWWXXXXXXXXX
+快速重传: 6
+* Sender: The sliding window: base: 6, next: 1
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 6, acknum = -1, checksum = 56538, WWWWWWWWWW
+XXXXXXXX
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方的确认包将在2076.85到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2076.85, 定时器报文序号 = 6
+******模拟网络环境******：启动定时器, 当前时间 = 2076.85, 定时器报文序号 = 7, 定时器Timeout时间 = 2096.85
+* Sender: The sliding window: base: 7, next: 1
+> seqNum: 7
+> seqNum: 0
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 2096.85, 定时器报文序号 = 7
+******模拟网络环境******：启动定时器, 当前时间 = 2096.85, 定时器报文序号 = 7, 定时器Timeout时间 = 2116.85
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 7, acknum = -1,checksum = 55245,payload = XXXXXXXXXXXYYYYYYYY
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 2116.85, 定时器报文序号 = 7
+******模拟网络环境******：启动定时器, 当前时间 = 2116.85, 定时器报文序号 = 7, 定时器Timeout时间 = 2136.85
+******模拟网络环境******：发送方的数据包将在2123.94到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 55245,payload = XXXXXXXXXXXYYYYYYYY
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 55245, XXXXXXXXXXX
+YYYYYYY
+******模拟网络环境******：向上递交给应用层数据：XXXXXXXXXXXYYYYYYYY
+接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：接收方的确认包将在2133.03到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2133.03, 定时器报文序号 = 7
+******模拟网络环境******：启动定时器, 当前时间 = 2133.03, 定时器报文序号 = 0, 定时器Timeout时间 = 2153.03
+* Sender: The sliding window: base: 0, next: 1
+> seqNum: 0
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 2153.03, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 2153.03, 定时器报文序号 = 0, 定时器Timeout时间 = 2173.03
+******模拟网络环境******：发送方的数据包将在2160.37到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 52175,payload = YYYYYYYYYYYYZZZZZZZ
+接收方正确收到发送方的报文: seqnum = 0, acknum = -1, checksum = 52175, YYYYYYYYYYYY
+ZZZZZZ
+******模拟网络环境******：向上递交给应用层数据：YYYYYYYYYYYYZZZZZZZ
+接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = /....................
+******模拟网络环境******：接收方的确认包将在2164.56到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = /....................
+Packet corrupt: : seqnum = -1, acknum = 0, checksum = 12851, /...................
+* Sender: The sliding window: base: 0, next: 1
+> seqNum: 0
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 2173.03, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 2173.03, 定时器报文序号 = 0, 定时器Timeout时间 = 2193.03
+******模拟网络环境******：发送方的数据包将在2183.53到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 52175,payload = YYYYYYYYYYYYZZZZZZZ
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 0, acknum = -1, checksum = 52175, YYYYYYYYYYYY
+ZZZZZZ
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在2190.31到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2190.31, 定时器报文序号 = 0
+* Sender: The sliding window: base: 1, next: 1
+The sender send: : seqnum = 1, acknum = -1, checksum = 64272, ZZZZZZZZZZZZZ
+AAAAA
+The packet sequence number: 1
+******模拟网络环境******：启动定时器, 当前时间 = 2190.33, 定时器报文序号 = 1, 定时器Timeout时间 = 2210.33
+******模拟网络环境******：发送方的数据包将在2200.33到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 64272,payload = ZZZZZZZZZZZZZAAAAAA
+* Sender: The sliding window: base: 1, next: 2
+> seqNum: 1
+The sender send: : seqnum = 2, acknum = -1, checksum = 42407, AAAAAAAAAAAAAA
+BBBB
+The packet sequence number: 2
+******模拟网络环境******：发送方的数据包将在2207.72到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 42407,payload = AAAAAAAAAAAAAABBBBB
+* Sender: The sliding window: base: 1, next: 3
+> seqNum: 1
+> seqNum: 2
+The sender send: : seqnum = 3, acknum = -1, checksum = 41114, BBBBBBBBBBBBBBB
+CCC
+The packet sequence number: 3
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 3, acknum = -1,checksum = 41114,payload = BBBBBBBBBBBBBBBCCCC
+* Sender: The sliding window: base: 1, next: 4
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+The sender send: : seqnum = 4, acknum = -1, checksum = 38036, CCCCCCCCCCCCCCCC
+DD
+The packet sequence number: 4
+******模拟网络环境******：发送方的数据包将在2215.31到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 38036,payload = CCCCCCCCCCCCCCCCDDD
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 64272, ZZZZZZZZZZZZZ
+AAAAA
+******模拟网络环境******：向上递交给应用层数据：ZZZZZZZZZZZZZAAAAAA
+接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方的确认包将在2209.53到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 42407, AAAAAAAAAAAAAA
+BBBB
+******模拟网络环境******：向上递交给应用层数据：AAAAAAAAAAAAAABBBBB
+接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：接收方的确认包将在2215.07到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2209.53, 定时器报文序号 = 1
+******模拟网络环境******：启动定时器, 当前时间 = 2209.53, 定时器报文序号 = 2, 定时器Timeout时间 = 2229.53
+* Sender: The sliding window: base: 2, next: 5
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+The sender received ACK packet: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2215.07, 定时器报文序号 = 2
+******模拟网络环境******：启动定时器, 当前时间 = 2215.07, 定时器报文序号 = 3, 定时器Timeout时间 = 2235.07
+* Sender: The sliding window: base: 3, next: 5
+> seqNum: 3
+> seqNum: 4
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 4, acknum = -1, checksum = 38036, CCCCCCCCCCCCCCCC
+DD
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：接收方的确认包将在2224.78到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+The packet has already confirmed: : seqnum = -1, acknum = 2, checksum = 12849, ....................
+* Sender: The sliding window: base: 3, next: 5
+> seqNum: 3
+> seqNum: 4
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 2235.07, 定时器报文序号 = 3
+******模拟网络环境******：启动定时器, 当前时间 = 2235.07, 定时器报文序号 = 3, 定时器Timeout时间 = 2255.07
+******模拟网络环境******：发送方的数据包将在2240.68到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 41114,payload = BBBBBBBBBBBBBBBCCCC
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 41114, BBBBBBBBBBBBBBB
+CCC
+******模拟网络环境******：向上递交给应用层数据：BBBBBBBBBBBBBBBCCCC
+接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：接收方的确认包将在2247.55到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2247.55, 定时器报文序号 = 3
+******模拟网络环境******：启动定时器, 当前时间 = 2247.55, 定时器报文序号 = 4, 定时器Timeout时间 = 2267.55
+* Sender: The sliding window: base: 4, next: 5
+> seqNum: 4
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 2267.55, 定时器报文序号 = 4
+******模拟网络环境******：启动定时器, 当前时间 = 2267.55, 定时器报文序号 = 4, 定时器Timeout时间 = 2287.55
+******模拟网络环境******：发送方的数据包将在2269.07到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 38036,payload = CCCCCCCCCCCCCCCCDDD
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 38036, CCCCCCCCCCCCCCCC
+DD
+******模拟网络环境******：向上递交给应用层数据：CCCCCCCCCCCCCCCCDDD
+接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 2287.55, 定时器报文序号 = 4
+******模拟网络环境******：启动定时器, 当前时间 = 2287.55, 定时器报文序号 = 4, 定时器Timeout时间 = 2307.55
+******模拟网络环境******：发送方的数据包将在2290.28到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 38036,payload = CCCCCCCCCCCCCCCCDDD
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 4, acknum = -1, checksum = 38036, CCCCCCCCCCCCCCCC
+DD
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：接收方的确认包将在2299.28到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2299.28, 定时器报文序号 = 4
+* Sender: The sliding window: base: 5, next: 5
+The sender send: : seqnum = 5, acknum = -1, checksum = 36743, DDDDDDDDDDDDDDDDD
+E
+The packet sequence number: 5
+******模拟网络环境******：启动定时器, 当前时间 = 2299.44, 定时器报文序号 = 5, 定时器Timeout时间 = 2319.44
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = 5, acknum = -1,checksum = 36743,payload = EDDDDDDDDDDDDDDDDEE
+******模拟网络环境******：发送方的数据包将在2300.77到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 36743,payload = EDDDDDDDDDDDDDDDDEE
+* Sender: The sliding window: base: 5, next: 6
+> seqNum: 5
+The sender send: : seqnum = 6, acknum = -1, checksum = 33665, EEEEEEEEEEEEEEEEEE
+
+The packet sequence number: 6
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 6, acknum = -1,checksum = 33665,payload = EEEEEEEEEEEEEEEEEEF
+* Sender: The sliding window: base: 5, next: 7
+> seqNum: 5
+> seqNum: 6
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 5, acknum = -1, checksum = 36743, EDDDDDDDDDDDDDDDD
+E
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：接收方的确认包将在2307.94到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+The sender send: : seqnum = 7, acknum = -1, checksum = 16756, FFFFFFFFFFFFFFFFFFF
+The packet sequence number: 7
+******模拟网络环境******：发送方的数据包将在2310.79到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 16756,payload = FFFFFFFFFFFFFFFFFFF
+* Sender: The sliding window: base: 5, next: 0
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+The sender send: : seqnum = 0, acknum = -1, checksum = 14136, GGGGGGGGGGGGGGGGGGGG
+The packet sequence number: 0
+******模拟网络环境******：发送方的数据包将在2318.39到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 14136,payload = GGGGGGGGGGGGGGGGGGGG
+* Sender: The sliding window: base: 5, next: 1
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+The packet has already confirmed: : seqnum = -1, acknum = 4, checksum = 12847, ....................
+* Sender: The sliding window: base: 5, next: 1
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 7, acknum = -1, checksum = 16756, FFFFFFFFFFFFFFFFFFF
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：网络层数据包损坏,损坏的包为-->seqnum = -999999, acknum = 4,checksum = 12847,payload = .....................
+******模拟网络环境******：接收方的确认包将在2313.18到达对方, 确认包为-->seqnum = -999999, acknum = 4,checksum = 12847,payload = .....................
+Packet corrupt: : seqnum = -999999, acknum = 4, checksum = 12847, ....................
+* Sender: The sliding window: base: 5, next: 1
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 0, acknum = -1, checksum = 14136, GGGGGGGGGGGGGGGGGGGG
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：接收方的确认包将在2320.31到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 2319.44, 定时器报文序号 = 5
+******模拟网络环境******：启动定时器, 当前时间 = 2319.44, 定时器报文序号 = 5, 定时器Timeout时间 = 2339.44
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 5, acknum = -1,checksum = 36743,payload = DDDDDDDDDDDDDDDDDEE
+The packet has already confirmed: : seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：发送方的数据包将在2323.04到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 36743,payload = DDDDDDDDDDDDDDDDDEE
+快速重传: 5
+* Sender: The sliding window: base: 5, next: 1
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 36743, DDDDDDDDDDDDDDDDD
+E
+******模拟网络环境******：向上递交给应用层数据：DDDDDDDDDDDDDDDDDEE
+接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：接收方的确认包将在2324.27到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2324.27, 定时器报文序号 = 5
+******模拟网络环境******：启动定时器, 当前时间 = 2324.27, 定时器报文序号 = 6, 定时器Timeout时间 = 2344.27
+* Sender: The sliding window: base: 6, next: 1
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 2344.27, 定时器报文序号 = 6
+******模拟网络环境******：启动定时器, 当前时间 = 2344.27, 定时器报文序号 = 6, 定时器Timeout时间 = 2364.27
+******模拟网络环境******：发送方的数据包将在2347.63到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 33665,payload = EEEEEEEEEEEEEEEEEEF
+接收方正确收到发送方的报文: seqnum = 6, acknum = -1, checksum = 33665, EEEEEEEEEEEEEEEEEE
+
+******模拟网络环境******：向上递交给应用层数据：EEEEEEEEEEEEEEEEEEF
+接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方的确认包将在2351.33到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2351.33, 定时器报文序号 = 6
+******模拟网络环境******：启动定时器, 当前时间 = 2351.33, 定时器报文序号 = 7, 定时器Timeout时间 = 2371.33
+* Sender: The sliding window: base: 7, next: 1
+> seqNum: 7
+> seqNum: 0
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 2371.33, 定时器报文序号 = 7
+******模拟网络环境******：启动定时器, 当前时间 = 2371.33, 定时器报文序号 = 7, 定时器Timeout时间 = 2391.33
+******模拟网络环境******：发送方的数据包将在2373.43到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 16756,payload = FFFFFFFFFFFFFFFFFFF
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 16756, FFFFFFFFFFFFFFFFFFF
+******模拟网络环境******：向上递交给应用层数据：FFFFFFFFFFFFFFFFFFF
+接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：接收方的确认包将在2375.92到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2375.92, 定时器报文序号 = 7
+******模拟网络环境******：启动定时器, 当前时间 = 2375.92, 定时器报文序号 = 0, 定时器Timeout时间 = 2395.92
+* Sender: The sliding window: base: 0, next: 1
+> seqNum: 0
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 2395.92, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 2395.92, 定时器报文序号 = 0, 定时器Timeout时间 = 2415.92
+******模拟网络环境******：发送方的数据包将在2399.89到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 14136,payload = GGGGGGGGGGGGGGGGGGGG
+接收方正确收到发送方的报文: seqnum = 0, acknum = -1, checksum = 14136, GGGGGGGGGGGGGGGGGGGG
+******模拟网络环境******：向上递交给应用层数据：GGGGGGGGGGGGGGGGGGGG
+接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在2404.73到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2404.73, 定时器报文序号 = 0
+* Sender: The sliding window: base: 1, next: 1
+The sender send: : seqnum = 1, acknum = -1, checksum = 27437, 
+HHHHHHHHHHHHHHHHHHH
+The packet sequence number: 1
+******模拟网络环境******：启动定时器, 当前时间 = 2404.89, 定时器报文序号 = 1, 定时器Timeout时间 = 2424.89
+******模拟网络环境******：发送方的数据包将在2406.02到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 27437,payload = HHHHHHHHHHHHHHHHHHHH
+* Sender: The sliding window: base: 1, next: 2
+> seqNum: 1
+The sender send: : seqnum = 2, acknum = -1, checksum = 24417, 
+IIIIIIIIIIIIIIIIII
+The packet sequence number: 2
+******模拟网络环境******：发送方的数据包将在2412.05到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 24417,payload = IIIIIIIIIIIIIIIIIII
+* Sender: The sliding window: base: 1, next: 3
+> seqNum: 1
+> seqNum: 2
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 27437, 
+HHHHHHHHHHHHHHHHHHH
+******模拟网络环境******：向上递交给应用层数据：HHHHHHHHHHHHHHHHHHHH
+接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方的确认包将在2411.11到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+The sender send: : seqnum = 3, acknum = -1, checksum = 23124, I
+JJJJJJJJJJJJJJJJJ
+The packet sequence number: 3
+******模拟网络环境******：发送方的数据包将在2416.35到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 23124,payload = IJJJJJJJJJJJJJJJJJJ
+* Sender: The sliding window: base: 1, next: 4
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+The sender send: : seqnum = 4, acknum = -1, checksum = 20046, JJ
+KKKKKKKKKKKKKKKK
+The packet sequence number: 4
+******模拟网络环境******：发送方的数据包将在2420.53到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 20046,payload = JJKKKKKKKKKKKKKKKKK
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+The sender received ACK packet: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2411.11, 定时器报文序号 = 1
+******模拟网络环境******：启动定时器, 当前时间 = 2411.11, 定时器报文序号 = 2, 定时器Timeout时间 = 2431.11
+* Sender: The sliding window: base: 2, next: 5
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 24417, 
+IIIIIIIIIIIIIIIIII
+******模拟网络环境******：向上递交给应用层数据：IIIIIIIIIIIIIIIIIII
+接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：接收方的确认包将在2415.81到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2415.81, 定时器报文序号 = 2
+******模拟网络环境******：启动定时器, 当前时间 = 2415.81, 定时器报文序号 = 3, 定时器Timeout时间 = 2435.81
+* Sender: The sliding window: base: 3, next: 5
+> seqNum: 3
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 23124, I
+JJJJJJJJJJJJJJJJJ
+******模拟网络环境******：向上递交给应用层数据：IJJJJJJJJJJJJJJJJJJ
+接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：接收方的确认包将在2424.56到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 20046, JJ
+KKKKKKKKKKKKKKKK
+******模拟网络环境******：向上递交给应用层数据：JJKKKKKKKKKKKKKKKKK
+接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：接收方的确认包将在2430.86到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2424.56, 定时器报文序号 = 3
+******模拟网络环境******：启动定时器, 当前时间 = 2424.56, 定时器报文序号 = 4, 定时器Timeout时间 = 2444.56
+* Sender: The sliding window: base: 4, next: 5
+> seqNum: 4
+The sender received ACK packet: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2430.86, 定时器报文序号 = 4
+* Sender: The sliding window: base: 5, next: 5
+The sender send: : seqnum = 5, acknum = -1, checksum = 18753, KKK
+LLLLLLLLLLLLLLL
+The packet sequence number: 5
+******模拟网络环境******：启动定时器, 当前时间 = 2432.2, 定时器报文序号 = 5, 定时器Timeout时间 = 2452.2
+******模拟网络环境******：发送方的数据包将在2437.11到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 18753,payload = KKKLLLLLLLLLLLLLLLL
+* Sender: The sliding window: base: 5, next: 6
+> seqNum: 5
+The sender send: : seqnum = 6, acknum = -1, checksum = 15675, LLLL
+MMMMMMMMMMMMMM
+The packet sequence number: 6
+******模拟网络环境******：发送方的数据包将在2441.72到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 15675,payload = LLLLMMMMMMMMMMMMMMM
+* Sender: The sliding window: base: 5, next: 7
+> seqNum: 5
+> seqNum: 6
+The sender send: : seqnum = 7, acknum = -1, checksum = 14382, MMMMM
+NNNNNNNNNNNNN
+The packet sequence number: 7
+******模拟网络环境******：发送方的数据包将在2444.51到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 14382,payload = MMMMMNNNNNNNNNNNNNN
+* Sender: The sliding window: base: 5, next: 0
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+The sender send: : seqnum = 0, acknum = -1, checksum = 11312, NNNNNN
+OOOOOOOOOOOO
+The packet sequence number: 0
+******模拟网络环境******：发送方的数据包将在2447.91到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 11312,payload = NNNNNNOOOOOOOOOOOOO
+* Sender: The sliding window: base: 5, next: 1
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 18753, KKK
+LLLLLLLLLLLLLLL
+******模拟网络环境******：向上递交给应用层数据：KKKLLLLLLLLLLLLLLLL
+接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：接收方的确认包将在2446.02到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+接收方正确收到发送方的报文: seqnum = 6, acknum = -1, checksum = 15675, LLLL
+MMMMMMMMMMMMMM
+******模拟网络环境******：向上递交给应用层数据：LLLLMMMMMMMMMMMMMMM
+接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方的确认包将在2451.07到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 14382, MMMMM
+NNNNNNNNNNNNN
+******模拟网络环境******：向上递交给应用层数据：MMMMMNNNNNNNNNNNNNN
+接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：接收方的确认包将在2455.18到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2446.02, 定时器报文序号 = 5
+******模拟网络环境******：启动定时器, 当前时间 = 2446.02, 定时器报文序号 = 6, 定时器Timeout时间 = 2466.02
+* Sender: The sliding window: base: 6, next: 1
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方正确收到发送方的报文: seqnum = 0, acknum = -1, checksum = 11312, NNNNNN
+OOOOOOOOOOOO
+******模拟网络环境******：向上递交给应用层数据：NNNNNNOOOOOOOOOOOOO
+接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在2460.02到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2451.07, 定时器报文序号 = 6
+******模拟网络环境******：启动定时器, 当前时间 = 2451.07, 定时器报文序号 = 7, 定时器Timeout时间 = 2471.07
+* Sender: The sliding window: base: 7, next: 1
+> seqNum: 7
+> seqNum: 0
+The sender received ACK packet: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2455.18, 定时器报文序号 = 7
+******模拟网络环境******：启动定时器, 当前时间 = 2455.18, 定时器报文序号 = 0, 定时器Timeout时间 = 2475.18
+* Sender: The sliding window: base: 0, next: 1
+> seqNum: 0
+The sender received ACK packet: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2460.02, 定时器报文序号 = 0
+* Sender: The sliding window: base: 1, next: 1
+The sender send: : seqnum = 1, acknum = -1, checksum = 10019, OOOOOOO
+PPPPPPPPPPP
+The packet sequence number: 1
+******模拟网络环境******：启动定时器, 当前时间 = 2461.07, 定时器报文序号 = 1, 定时器Timeout时间 = 2481.07
+******模拟网络环境******：发送方的数据包将在2462.67到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 10019,payload = OOOOOOOPPPPPPPPPPPP
+* Sender: The sliding window: base: 1, next: 2
+> seqNum: 1
+The sender send: : seqnum = 2, acknum = -1, checksum = 6941, PPPPPPPP
+QQQQQQQQQQ
+The packet sequence number: 2
+******模拟网络环境******：发送方的数据包将在2463.89到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 6941,payload = PPPPPPPPQQQQQQQQQQQ
+* Sender: The sliding window: base: 1, next: 3
+> seqNum: 1
+> seqNum: 2
+The sender send: : seqnum = 3, acknum = -1, checksum = 5648, QQQQQQQQQ
+RRRRRRRRR
+The packet sequence number: 3
+******模拟网络环境******：发送方的数据包将在2470.87到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 5648,payload = QQQQQQQQQRRRRRRRRRR
+* Sender: The sliding window: base: 1, next: 4
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+The sender send: : seqnum = 4, acknum = -1, checksum = 2570, RRRRRRRRRR
+SSSSSSSS
+The packet sequence number: 4
+******模拟网络环境******：发送方的数据包将在2473.52到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 2570,payload = RRRRRRRRRRSSSSSSSSS
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 10019, OOOOOOO
+PPPPPPPPPPP
+******模拟网络环境******：向上递交给应用层数据：OOOOOOOPPPPPPPPPPPP
+接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方的确认包将在2470.29到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 6941, PPPPPPPP
+QQQQQQQQQQ
+******模拟网络环境******：向上递交给应用层数据：PPPPPPPPQQQQQQQQQQQ
+接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：接收方的确认包将在2471.36到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2470.29, 定时器报文序号 = 1
+******模拟网络环境******：启动定时器, 当前时间 = 2470.29, 定时器报文序号 = 2, 定时器Timeout时间 = 2490.29
+* Sender: The sliding window: base: 2, next: 5
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 5648, QQQQQQQQQ
+RRRRRRRRR
+******模拟网络环境******：向上递交给应用层数据：QQQQQQQQQRRRRRRRRRR
+接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：接收方的确认包将在2478.99到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2471.36, 定时器报文序号 = 2
+******模拟网络环境******：启动定时器, 当前时间 = 2471.36, 定时器报文序号 = 3, 定时器Timeout时间 = 2491.36
+* Sender: The sliding window: base: 3, next: 5
+> seqNum: 3
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 2570, RRRRRRRRRR
+SSSSSSSS
+******模拟网络环境******：向上递交给应用层数据：RRRRRRRRRRSSSSSSSSS
+接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：接收方的确认包将在2481.3到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2478.99, 定时器报文序号 = 3
+******模拟网络环境******：启动定时器, 当前时间 = 2478.99, 定时器报文序号 = 4, 定时器Timeout时间 = 2498.99
+* Sender: The sliding window: base: 4, next: 5
+> seqNum: 4
+The sender received ACK packet: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2481.3, 定时器报文序号 = 4
+* Sender: The sliding window: base: 5, next: 5
+The sender send: : seqnum = 5, acknum = -1, checksum = 1277, SSSSSSSSSSS
+TTTTTTT
+The packet sequence number: 5
+******模拟网络环境******：启动定时器, 当前时间 = 2482.82, 定时器报文序号 = 5, 定时器Timeout时间 = 2502.82
+******模拟网络环境******：发送方的数据包将在2493.09到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 1277,payload = SSSSSSSSSSSTTTTTTTT
+* Sender: The sliding window: base: 5, next: 6
+> seqNum: 5
+The sender send: : seqnum = 6, acknum = -1, checksum = 63734, TTTTTTTTTTTT
+UUUUUU
+The packet sequence number: 6
+******模拟网络环境******：发送方的数据包将在2500.13到达对方, 数据包为-->seqnum = 6, acknum = -1,checksum = 63734,payload = TTTTTTTTTTTTUUUUUUU
+* Sender: The sliding window: base: 5, next: 7
+> seqNum: 5
+> seqNum: 6
+The sender send: : seqnum = 7, acknum = -1, checksum = 62441, UUUUUUUUUUUUU
+VVVVV
+The packet sequence number: 7
+******模拟网络环境******：发送方的数据包将在2503.9到达对方, 数据包为-->seqnum = 7, acknum = -1,checksum = 62441,payload = UUUUUUUUUUUUUVVVVVV
+* Sender: The sliding window: base: 5, next: 0
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+The sender send: : seqnum = 0, acknum = -1, checksum = 59371, VVVVVVVVVVVVVV
+WWWW
+The packet sequence number: 0
+******模拟网络环境******：发送方发送的数据包丢失：seqnum = 0, acknum = -1,checksum = 59371,payload = VVVVVVVVVVVVVVWWWWW
+* Sender: The sliding window: base: 5, next: 1
+> seqNum: 5
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 1277, SSSSSSSSSSS
+TTTTTTT
+******模拟网络环境******：向上递交给应用层数据：SSSSSSSSSSSTTTTTTTT
+接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：接收方的确认包将在2502.82到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+接收方正确收到发送方的报文: seqnum = 6, acknum = -1, checksum = 63734, TTTTTTTTTTTT
+UUUUUU
+******模拟网络环境******：向上递交给应用层数据：TTTTTTTTTTTTUUUUUUU
+接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：接收方的确认包将在2509.19到达对方, 确认包为-->seqnum = -1, acknum = 6,checksum = 12845,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2502.82, 定时器报文序号 = 5
+******模拟网络环境******：启动定时器, 当前时间 = 2502.82, 定时器报文序号 = 6, 定时器Timeout时间 = 2522.82
+* Sender: The sliding window: base: 6, next: 1
+> seqNum: 6
+> seqNum: 7
+> seqNum: 0
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 62441, UUUUUUUUUUUUU
+VVVVV
+******模拟网络环境******：向上递交给应用层数据：UUUUUUUUUUUUUVVVVVV
+接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：接收方的确认包将在2517.14到达对方, 确认包为-->seqnum = -1, acknum = 7,checksum = 12844,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2509.19, 定时器报文序号 = 6
+******模拟网络环境******：启动定时器, 当前时间 = 2509.19, 定时器报文序号 = 7, 定时器Timeout时间 = 2529.19
+* Sender: The sliding window: base: 7, next: 1
+> seqNum: 7
+> seqNum: 0
+The sender received ACK packet: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2517.14, 定时器报文序号 = 7
+******模拟网络环境******：启动定时器, 当前时间 = 2517.14, 定时器报文序号 = 0, 定时器Timeout时间 = 2537.14
+* Sender: The sliding window: base: 0, next: 1
+> seqNum: 0
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 2537.14, 定时器报文序号 = 0
+******模拟网络环境******：启动定时器, 当前时间 = 2537.14, 定时器报文序号 = 0, 定时器Timeout时间 = 2557.14
+******模拟网络环境******：发送方的数据包将在2540.73到达对方, 数据包为-->seqnum = 0, acknum = -1,checksum = 59371,payload = VVVVVVVVVVVVVVWWWWW
+接收方正确收到发送方的报文: seqnum = 0, acknum = -1, checksum = 59371, VVVVVVVVVVVVVV
+WWWW
+******模拟网络环境******：向上递交给应用层数据：VVVVVVVVVVVVVVWWWWW
+接收方发送确认报文: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：接收方的确认包将在2546.59到达对方, 确认包为-->seqnum = -1, acknum = 0,checksum = 12851,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 0, checksum = 12851, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2546.59, 定时器报文序号 = 0
+* Sender: The sliding window: base: 1, next: 1
+The sender send: : seqnum = 1, acknum = -1, checksum = 58078, WWWWWWWWWWWWWWW
+XXX
+The packet sequence number: 1
+******模拟网络环境******：启动定时器, 当前时间 = 2546.84, 定时器报文序号 = 1, 定时器Timeout时间 = 2566.84
+******模拟网络环境******：发送方的数据包将在2555.87到达对方, 数据包为-->seqnum = 1, acknum = -1,checksum = 58078,payload = WWWWWWWWWWWWWWWXXXX
+* Sender: The sliding window: base: 1, next: 2
+> seqNum: 1
+The sender send: : seqnum = 2, acknum = -1, checksum = 55000, XXXXXXXXXXXXXXXX
+YY
+The packet sequence number: 2
+******模拟网络环境******：发送方的数据包将在2560.78到达对方, 数据包为-->seqnum = 2, acknum = -1,checksum = 55000,payload = XXXXXXXXXXXXXXXXYYY
+* Sender: The sliding window: base: 1, next: 3
+> seqNum: 1
+> seqNum: 2
+The sender send: : seqnum = 3, acknum = -1, checksum = 53707, YYYYYYYYYYYYYYYYY
+Z
+The packet sequence number: 3
+******模拟网络环境******：发送方的数据包将在2561.79到达对方, 数据包为-->seqnum = 3, acknum = -1,checksum = 53707,payload = YYYYYYYYYYYYYYYYYZZ
+* Sender: The sliding window: base: 1, next: 4
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+The sender send: : seqnum = 4, acknum = -1, checksum = 50629, ZZZZZZZZZZZZZZZZZZ
+
+The packet sequence number: 4
+******模拟网络环境******：发送方的数据包将在2564.88到达对方, 数据包为-->seqnum = 4, acknum = -1,checksum = 50629,payload = ZZZZZZZZZZZZZZZZZZE
+* Sender: The sliding window: base: 1, next: 5
+> seqNum: 1
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 58078, WWWWWWWWWWWWWWW
+XXX
+******模拟网络环境******：向上递交给应用层数据：WWWWWWWWWWWWWWWXXXX
+接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：接收方的确认包将在2559.74到达对方, 确认包为-->seqnum = -1, acknum = 1,checksum = 12850,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2559.74, 定时器报文序号 = 1
+******模拟网络环境******：启动定时器, 当前时间 = 2559.74, 定时器报文序号 = 2, 定时器Timeout时间 = 2579.74
+* Sender: The sliding window: base: 2, next: 5
+> seqNum: 2
+> seqNum: 3
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 55000, XXXXXXXXXXXXXXXX
+YY
+******模拟网络环境******：向上递交给应用层数据：XXXXXXXXXXXXXXXXYYY
+接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：接收方的确认包将在2562.04到达对方, 确认包为-->seqnum = -1, acknum = 2,checksum = 12849,payload = .....................
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 53707, YYYYYYYYYYYYYYYYY
+Z
+******模拟网络环境******：向上递交给应用层数据：YYYYYYYYYYYYYYYYYZZ
+接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：接收方的确认包将在2570.77到达对方, 确认包为-->seqnum = -1, acknum = 3,checksum = 12848,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2562.04, 定时器报文序号 = 2
+******模拟网络环境******：启动定时器, 当前时间 = 2562.04, 定时器报文序号 = 3, 定时器Timeout时间 = 2582.04
+* Sender: The sliding window: base: 3, next: 5
+> seqNum: 3
+> seqNum: 4
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 50629, ZZZZZZZZZZZZZZZZZZ
+
+******模拟网络环境******：向上递交给应用层数据：ZZZZZZZZZZZZZZZZZZE
+接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：接收方的确认包将在2573.61到达对方, 确认包为-->seqnum = -1, acknum = 4,checksum = 12847,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2570.77, 定时器报文序号 = 3
+******模拟网络环境******：启动定时器, 当前时间 = 2570.77, 定时器报文序号 = 4, 定时器Timeout时间 = 2590.77
+* Sender: The sliding window: base: 4, next: 5
+> seqNum: 4
+The sender received ACK packet: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2573.61, 定时器报文序号 = 4
+* Sender: The sliding window: base: 5, next: 5
+The sender send: : seqnum = 5, acknum = -1, checksum = 45237, OF                  
+The packet sequence number: 5
+******模拟网络环境******：启动定时器, 当前时间 = 2574.12, 定时器报文序号 = 5, 定时器Timeout时间 = 2594.12
+******模拟网络环境******：发送方的数据包将在2581.48到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 45237,payload = OF                   
+* Sender: The sliding window: base: 5, next: 6
+> seqNum: 5
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 45237, OF                  
+******模拟网络环境******：向上递交给应用层数据：OF                   
+接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：接收方发送的确认包丢失：seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+超时重传
+******模拟网络环境******：关闭定时器, 当前时间 = 2594.12, 定时器报文序号 = 5
+******模拟网络环境******：启动定时器, 当前时间 = 2594.12, 定时器报文序号 = 5, 定时器Timeout时间 = 2614.12
+******模拟网络环境******：发送方的数据包将在2602.65到达对方, 数据包为-->seqnum = 5, acknum = -1,checksum = 45237,payload = OF                   
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 5, acknum = -1, checksum = 45237, OF                  
+接收方重新发送上次的确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：接收方的确认包将在2606.72到达对方, 确认包为-->seqnum = -1, acknum = 5,checksum = 12846,payload = .....................
+The sender received ACK packet: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：关闭定时器, 当前时间 = 2606.72, 定时器报文序号 = 5
+* Sender: The sliding window: base: 6, next: 6
+******模拟网络环境******：模拟网络环境已发送完应用层数据，关闭模拟网络环境
+已发送应用层Message个数: 110
+发送到网络层数据Packet个数: 201
+网络层丢失的数据Packet个数: 22
+网络层损坏的数据pakcet个数:20
+发送到网络层确认Packet个数:179
+网络层丢失的确认Packet个数: 19
+网络层损坏的确认Packet个数: 11
+
