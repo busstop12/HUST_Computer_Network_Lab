@@ -2,7 +2,7 @@
 #include "GBNRdtSender.h"
 
 GBNRdtSender::GBNRdtSender()
-    : seqNum(8), windowLen(4), base(0), expectSeqNum(0)
+    : seqNum(8), windowLen(4), base(0), expectSeqNum(0), fout("GBN_SENDER_WINDOW.txt")
 {
 }
 
@@ -111,8 +111,12 @@ void GBNRdtSender::timeoutHandler(int seqNum)
 
 void GBNRdtSender::printWindow() {
   printf("* Sender: The sliding window: base: %d, next: %d\n", this->base, this->expectSeqNum);
+  fout << "base: " << base << ", next: " << expectSeqNum << endl;
 
   for (auto it = window.begin(); it != window.end(); it++) {
     printf("> seqNum: %d\n", it->seqnum);
+    fout << it->seqnum << ", ";
   }
+  fout << endl;
+  fout << endl;
 }

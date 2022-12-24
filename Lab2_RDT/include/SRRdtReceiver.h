@@ -11,8 +11,9 @@ private:
   int expectSequenceNumberRcvd; // 期待收到的下一个报文序号
   int windowLen;
   int base;
-  Packet lastAckPkt;            //上次发送的确认报文
+  Packet lastAckPkt; // 上次发送的确认报文
   deque<pair<Packet, bool>> window;
+  ofstream fout;
 
 public:
   SRRdtReceiver();

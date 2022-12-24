@@ -1,7 +1,7 @@
 #include "Global.h"
 #include "SRRdtSender.h"
 
-SRRdtSender::SRRdtSender() : seqNum(8), windowLen(4), base(0), expectSeqNum(0)
+SRRdtSender::SRRdtSender() : seqNum(8), windowLen(4), base(0), expectSeqNum(0), fout("SR_SENDER_WINDOW.txt")
 {
 }
 
@@ -100,6 +100,8 @@ void SRRdtSender::timeoutHandler(int seqNum)
 void SRRdtSender::printWindow()
 {
   printf("* Sender: The sliding window: base: %d, next sequence: %d\n", this->base, this->expectSeqNum);
+  fout << "base: " << base << ", next: " << expectSeqNum << endl;
+
   for (auto it = window.begin(); it != window.end(); it++)
   {
     printf("> status: ");
@@ -112,5 +114,8 @@ void SRRdtSender::printWindow()
       printf("false");
     }
     printf(", sequence: %d\n", it->first.seqnum);
+    fout << "(" << it->second << ", " << it->first.seqnum << "), ";
   }
+  fout << endl;
+  fout << endl;
 }

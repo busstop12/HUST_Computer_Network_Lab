@@ -13,6 +13,7 @@ private:
   int expectSeqNum;
   deque<Packet> window;
   Packet lastSendPkt;
+  ofstream fout;
 
 public:
   bool getWaitingState();

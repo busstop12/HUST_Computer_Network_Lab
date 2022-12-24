@@ -1,7 +1,7 @@
 #include "Global.h"
 #include "SRRdtReceiver.h"
 
-SRRdtReceiver::SRRdtReceiver() : expectSequenceNumberRcvd(0), windowLen(4), base(0), seqNum(8)
+SRRdtReceiver::SRRdtReceiver() : expectSequenceNumberRcvd(0), windowLen(4), base(0), seqNum(8), fout("SR_RECEIVER_WINDOW.txt")
 {
   lastAckPkt.acknum = 7;
   lastAckPkt.checksum = 0;
@@ -88,6 +88,8 @@ void SRRdtReceiver::receive(const Packet &packet)
 void SRRdtReceiver::printWindow()
 {
   printf("* Receiver: The sliding window: base: %d, next sequence: %d\n", this->base, this->expectSequenceNumberRcvd);
+  fout << "base: " << base << ", next: " << expectSequenceNumberRcvd << endl;
+
   for (auto it = window.begin(); it != window.end(); it++)
   {
     printf("> status: ");
@@ -100,5 +102,7 @@ void SRRdtReceiver::printWindow()
       printf("false");
     }
     printf(", sequence: %d\n", it->first.seqnum);
+    fout << "(" << it->second << ", " << it->first.seqnum << "), ";
   }
+  fout << endl << endl;
 }

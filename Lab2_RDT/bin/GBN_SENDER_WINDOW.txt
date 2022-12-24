@@ -1,0 +1,798 @@
+base: 0, next: 1
+0, 
+
+base: 1, next: 1
+
+
+base: 1, next: 2
+1, 
+
+base: 1, next: 3
+1, 2, 
+
+base: 1, next: 4
+1, 2, 3, 
+
+base: 1, next: 5
+1, 2, 3, 4, 
+
+base: 2, next: 5
+2, 3, 4, 
+
+base: 2, next: 5
+2, 3, 4, 
+
+base: 2, next: 5
+2, 3, 4, 
+
+base: 2, next: 5
+2, 3, 4, 
+
+base: 2, next: 5
+2, 3, 4, 
+
+base: 2, next: 5
+2, 3, 4, 
+
+base: 3, next: 5
+3, 4, 
+
+base: 4, next: 5
+4, 
+
+base: 5, next: 5
+
+
+base: 5, next: 6
+5, 
+
+base: 5, next: 7
+5, 6, 
+
+base: 5, next: 0
+5, 6, 7, 
+
+base: 5, next: 1
+5, 6, 7, 0, 
+
+base: 6, next: 1
+6, 7, 0, 
+
+base: 7, next: 1
+7, 0, 
+
+base: 7, next: 1
+7, 0, 
+
+base: 7, next: 1
+7, 0, 
+
+base: 7, next: 1
+7, 0, 
+
+base: 1, next: 1
+
+
+base: 1, next: 1
+
+
+base: 1, next: 2
+1, 
+
+base: 1, next: 3
+1, 2, 
+
+base: 1, next: 4
+1, 2, 3, 
+
+base: 1, next: 5
+1, 2, 3, 4, 
+
+base: 1, next: 5
+1, 2, 3, 4, 
+
+base: 1, next: 5
+1, 2, 3, 4, 
+
+base: 1, next: 5
+1, 2, 3, 4, 
+
+base: 3, next: 5
+3, 4, 
+
+base: 4, next: 5
+4, 
+
+base: 5, next: 5
+
+
+base: 5, next: 6
+5, 
+
+base: 5, next: 7
+5, 6, 
+
+base: 5, next: 0
+5, 6, 7, 
+
+base: 5, next: 1
+5, 6, 7, 0, 
+
+base: 6, next: 1
+6, 7, 0, 
+
+base: 7, next: 1
+7, 0, 
+
+base: 0, next: 1
+0, 
+
+base: 1, next: 1
+
+
+base: 1, next: 2
+1, 
+
+base: 1, next: 3
+1, 2, 
+
+base: 1, next: 4
+1, 2, 3, 
+
+base: 1, next: 5
+1, 2, 3, 4, 
+
+base: 2, next: 5
+2, 3, 4, 
+
+base: 2, next: 5
+2, 3, 4, 
+
+base: 2, next: 5
+2, 3, 4, 
+
+base: 3, next: 5
+3, 4, 
+
+base: 5, next: 5
+
+
+base: 5, next: 6
+5, 
+
+base: 5, next: 7
+5, 6, 
+
+base: 5, next: 0
+5, 6, 7, 
+
+base: 5, next: 1
+5, 6, 7, 0, 
+
+base: 5, next: 1
+5, 6, 7, 0, 
+
+base: 5, next: 1
+5, 6, 7, 0, 
+
+base: 5, next: 1
+5, 6, 7, 0, 
+
+base: 6, next: 1
+6, 7, 0, 
+
+base: 7, next: 1
+7, 0, 
+
+base: 7, next: 1
+7, 0, 
+
+base: 7, next: 1
+7, 0, 
+
+base: 0, next: 1
+0, 
+
+base: 1, next: 1
+
+
+base: 1, next: 2
+1, 
+
+base: 1, next: 3
+1, 2, 
+
+base: 1, next: 4
+1, 2, 3, 
+
+base: 1, next: 5
+1, 2, 3, 4, 
+
+base: 2, next: 5
+2, 3, 4, 
+
+base: 2, next: 5
+2, 3, 4, 
+
+base: 5, next: 5
+
+
+base: 5, next: 5
+
+
+base: 5, next: 6
+5, 
+
+base: 5, next: 7
+5, 6, 
+
+base: 5, next: 0
+5, 6, 7, 
+
+base: 5, next: 1
+5, 6, 7, 0, 
+
+base: 6, next: 1
+6, 7, 0, 
+
+base: 7, next: 1
+7, 0, 
+
+base: 7, next: 1
+7, 0, 
+
+base: 1, next: 1
+
+
+base: 1, next: 2
+1, 
+
+base: 1, next: 3
+1, 2, 
+
+base: 1, next: 4
+1, 2, 3, 
+
+base: 1, next: 5
+1, 2, 3, 4, 
+
+base: 1, next: 5
+1, 2, 3, 4, 
+
+base: 3, next: 5
+3, 4, 
+
+base: 4, next: 5
+4, 
+
+base: 5, next: 5
+
+
+base: 5, next: 6
+5, 
+
+base: 5, next: 7
+5, 6, 
+
+base: 5, next: 0
+5, 6, 7, 
+
+base: 5, next: 1
+5, 6, 7, 0, 
+
+base: 5, next: 1
+5, 6, 7, 0, 
+
+base: 7, next: 1
+7, 0, 
+
+base: 7, next: 1
+7, 0, 
+
+base: 1, next: 1
+
+
+base: 1, next: 1
+
+
+base: 1, next: 1
+
+
+base: 1, next: 1
+
+
+base: 1, next: 2
+1, 
+
+base: 1, next: 3
+1, 2, 
+
+base: 1, next: 4
+1, 2, 3, 
+
+base: 1, next: 5
+1, 2, 3, 4, 
+
+base: 2, next: 5
+2, 3, 4, 
+
+base: 2, next: 5
+2, 3, 4, 
+
+base: 4, next: 5
+4, 
+
+base: 4, next: 5
+4, 
+
+base: 5, next: 5
+
+
+base: 5, next: 6
+5, 
+
+base: 5, next: 7
+5, 6, 
+
+base: 5, next: 0
+5, 6, 7, 
+
+base: 5, next: 1
+5, 6, 7, 0, 
+
+base: 5, next: 1
+5, 6, 7, 0, 
+
+base: 5, next: 1
+5, 6, 7, 0, 
+
+base: 5, next: 1
+5, 6, 7, 0, 
+
+base: 6, next: 1
+6, 7, 0, 
+
+base: 6, next: 1
+6, 7, 0, 
+
+base: 6, next: 1
+6, 7, 0, 
+
+base: 0, next: 1
+0, 
+
+base: 0, next: 1
+0, 
+
+base: 0, next: 1
+0, 
+
+base: 1, next: 1
+
+
+base: 1, next: 2
+1, 
+
+base: 1, next: 3
+1, 2, 
+
+base: 1, next: 4
+1, 2, 3, 
+
+base: 1, next: 5
+1, 2, 3, 4, 
+
+base: 1, next: 5
+1, 2, 3, 4, 
+
+base: 1, next: 5
+1, 2, 3, 4, 
+
+base: 1, next: 5
+1, 2, 3, 4, 
+
+base: 2, next: 5
+2, 3, 4, 
+
+base: 3, next: 5
+3, 4, 
+
+base: 4, next: 5
+4, 
+
+base: 4, next: 5
+4, 
+
+base: 5, next: 5
+
+
+base: 5, next: 6
+5, 
+
+base: 5, next: 7
+5, 6, 
+
+base: 5, next: 0
+5, 6, 7, 
+
+base: 5, next: 1
+5, 6, 7, 0, 
+
+base: 6, next: 1
+6, 7, 0, 
+
+base: 7, next: 1
+7, 0, 
+
+base: 0, next: 1
+0, 
+
+base: 1, next: 1
+
+
+base: 1, next: 2
+1, 
+
+base: 1, next: 3
+1, 2, 
+
+base: 1, next: 4
+1, 2, 3, 
+
+base: 1, next: 5
+1, 2, 3, 4, 
+
+base: 2, next: 5
+2, 3, 4, 
+
+base: 3, next: 5
+3, 4, 
+
+base: 3, next: 5
+3, 4, 
+
+base: 4, next: 5
+4, 
+
+base: 5, next: 5
+
+
+base: 5, next: 6
+5, 
+
+base: 5, next: 7
+5, 6, 
+
+base: 5, next: 0
+5, 6, 7, 
+
+base: 5, next: 1
+5, 6, 7, 0, 
+
+base: 6, next: 1
+6, 7, 0, 
+
+base: 6, next: 1
+6, 7, 0, 
+
+base: 6, next: 1
+6, 7, 0, 
+
+base: 7, next: 1
+7, 0, 
+
+base: 7, next: 1
+7, 0, 
+
+base: 0, next: 1
+0, 
+
+base: 0, next: 1
+0, 
+
+base: 1, next: 1
+
+
+base: 1, next: 2
+1, 
+
+base: 1, next: 3
+1, 2, 
+
+base: 1, next: 4
+1, 2, 3, 
+
+base: 1, next: 5
+1, 2, 3, 4, 
+
+base: 2, next: 5
+2, 3, 4, 
+
+base: 3, next: 5
+3, 4, 
+
+base: 4, next: 5
+4, 
+
+base: 5, next: 5
+
+
+base: 5, next: 6
+5, 
+
+base: 5, next: 7
+5, 6, 
+
+base: 5, next: 0
+5, 6, 7, 
+
+base: 5, next: 1
+5, 6, 7, 0, 
+
+base: 5, next: 1
+5, 6, 7, 0, 
+
+base: 0, next: 1
+0, 
+
+base: 1, next: 1
+
+
+base: 1, next: 1
+
+
+base: 1, next: 1
+
+
+base: 1, next: 1
+
+
+base: 1, next: 1
+
+
+base: 1, next: 2
+1, 
+
+base: 1, next: 3
+1, 2, 
+
+base: 1, next: 4
+1, 2, 3, 
+
+base: 1, next: 5
+1, 2, 3, 4, 
+
+base: 2, next: 5
+2, 3, 4, 
+
+base: 3, next: 5
+3, 4, 
+
+base: 4, next: 5
+4, 
+
+base: 5, next: 5
+
+
+base: 5, next: 6
+5, 
+
+base: 5, next: 7
+5, 6, 
+
+base: 5, next: 0
+5, 6, 7, 
+
+base: 5, next: 1
+5, 6, 7, 0, 
+
+base: 6, next: 1
+6, 7, 0, 
+
+base: 7, next: 1
+7, 0, 
+
+base: 1, next: 1
+
+
+base: 1, next: 1
+
+
+base: 1, next: 2
+1, 
+
+base: 1, next: 3
+1, 2, 
+
+base: 1, next: 4
+1, 2, 3, 
+
+base: 1, next: 5
+1, 2, 3, 4, 
+
+base: 1, next: 5
+1, 2, 3, 4, 
+
+base: 4, next: 5
+4, 
+
+base: 4, next: 5
+4, 
+
+base: 4, next: 5
+4, 
+
+base: 5, next: 5
+
+
+base: 5, next: 5
+
+
+base: 5, next: 6
+5, 
+
+base: 5, next: 7
+5, 6, 
+
+base: 5, next: 0
+5, 6, 7, 
+
+base: 5, next: 1
+5, 6, 7, 0, 
+
+base: 6, next: 1
+6, 7, 0, 
+
+base: 7, next: 1
+7, 0, 
+
+base: 7, next: 1
+7, 0, 
+
+base: 7, next: 1
+7, 0, 
+
+base: 0, next: 1
+0, 
+
+base: 1, next: 1
+
+
+base: 1, next: 2
+1, 
+
+base: 1, next: 3
+1, 2, 
+
+base: 1, next: 4
+1, 2, 3, 
+
+base: 1, next: 5
+1, 2, 3, 4, 
+
+base: 2, next: 5
+2, 3, 4, 
+
+base: 2, next: 5
+2, 3, 4, 
+
+base: 2, next: 5
+2, 3, 4, 
+
+base: 2, next: 5
+2, 3, 4, 
+
+base: 3, next: 5
+3, 4, 
+
+base: 4, next: 5
+4, 
+
+base: 5, next: 5
+
+
+base: 5, next: 6
+5, 
+
+base: 5, next: 7
+5, 6, 
+
+base: 5, next: 0
+5, 6, 7, 
+
+base: 5, next: 1
+5, 6, 7, 0, 
+
+base: 6, next: 1
+6, 7, 0, 
+
+base: 7, next: 1
+7, 0, 
+
+base: 0, next: 1
+0, 
+
+base: 1, next: 1
+
+
+base: 1, next: 2
+1, 
+
+base: 1, next: 3
+1, 2, 
+
+base: 1, next: 4
+1, 2, 3, 
+
+base: 1, next: 5
+1, 2, 3, 4, 
+
+base: 2, next: 5
+2, 3, 4, 
+
+base: 3, next: 5
+3, 4, 
+
+base: 3, next: 5
+3, 4, 
+
+base: 5, next: 5
+
+
+base: 5, next: 6
+5, 
+
+base: 5, next: 7
+5, 6, 
+
+base: 5, next: 0
+5, 6, 7, 
+
+base: 5, next: 1
+5, 6, 7, 0, 
+
+base: 5, next: 1
+5, 6, 7, 0, 
+
+base: 7, next: 1
+7, 0, 
+
+base: 0, next: 1
+0, 
+
+base: 1, next: 1
+
+
+base: 1, next: 2
+1, 
+
+base: 1, next: 3
+1, 2, 
+
+base: 1, next: 4
+1, 2, 3, 
+
+base: 1, next: 5
+1, 2, 3, 4, 
+
+base: 2, next: 5
+2, 3, 4, 
+
+base: 2, next: 5
+2, 3, 4, 
+
+base: 4, next: 5
+4, 
+
+base: 5, next: 5
+
+
+base: 5, next: 6
+5, 
+
+base: 5, next: 6
+5, 
+
+base: 6, next: 6
+
+
